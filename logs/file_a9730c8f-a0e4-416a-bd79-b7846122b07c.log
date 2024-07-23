@@ -1,0 +1,160 @@
+2024-07-17 19:15:43.377 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-17 19:15:43.377 | INFO     | __main__:omprint:28 - Servidor Flask corriendo en el puerto 6547
+2024-07-17 19:15:43.377 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-17 19:15:57.795 | INFO     | __main__:omprint:28 - carousel_div: JSHandle@node
+2024-07-17 19:15:57.959 | INFO     | __main__:omprint:28 - img_elements: [<JSHandle preview=JSHandle@<img class="f800-image" aria-describedby="photo-descr…/>>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>]
+2024-07-17 19:15:57.965 | INFO     | __main__:omprint:28 - src: /rimg/himg/26/3b/88/leonardo-61201-150608796-348102.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.965 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/26/3b/88/leonardo-61201-150608796-348102.jpg
+2024-07-17 19:15:57.970 | INFO     | __main__:omprint:28 - src: /rimg/himg/7e/08/a2/leonardo-61201-150608800-357201.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.970 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/7e/08/a2/leonardo-61201-150608800-357201.jpg
+2024-07-17 19:15:57.974 | INFO     | __main__:omprint:28 - src: /rimg/himg/78/bc/07/leonardo-61201-161945177-622592.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.975 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/78/bc/07/leonardo-61201-161945177-622592.jpg
+2024-07-17 19:15:57.979 | INFO     | __main__:omprint:28 - src: /rimg/himg/b9/fe/97/leonardo-61201-175638799-708213.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.980 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/b9/fe/97/leonardo-61201-175638799-708213.jpg
+2024-07-17 19:15:57.984 | INFO     | __main__:omprint:28 - src: /rimg/himg/cd/9d/75/leonardo-61201-150608678-106464.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.985 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/cd/9d/75/leonardo-61201-150608678-106464.jpg
+2024-07-17 19:15:57.989 | INFO     | __main__:omprint:28 - src: /rimg/himg/e3/55/eb/leonardo-61201-150608674-972649.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.989 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/e3/55/eb/leonardo-61201-150608674-972649.jpg
+2024-07-17 19:15:57.994 | INFO     | __main__:omprint:28 - src: /rimg/himg/a1/6e/04/leonardo-61201-175638775-687331.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.994 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/a1/6e/04/leonardo-61201-175638775-687331.jpg
+2024-07-17 19:15:57.999 | INFO     | __main__:omprint:28 - src: /rimg/himg/f0/e1/f8/sembo-61201-b64b8e-116432.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:57.999 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/f0/e1/f8/sembo-61201-b64b8e-116432.jpg
+2024-07-17 19:15:58.005 | INFO     | __main__:omprint:28 - src: /rimg/himg/a2/07/ab/leonardo-61201-150608714-186866.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.005 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/a2/07/ab/leonardo-61201-150608714-186866.jpg
+2024-07-17 19:15:58.009 | INFO     | __main__:omprint:28 - src: /rimg/himg/56/30/e0/sembo-61201-9e723a-640802.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.009 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/56/30/e0/sembo-61201-9e723a-640802.jpg
+2024-07-17 19:15:58.019 | INFO     | __main__:omprint:28 - src: /rimg/himg/db/c8/05/leonardo-2702486-sforz-wedding-0047-hor-clsc_O-930138.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.019 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/db/c8/05/leonardo-2702486-sforz-wedding-0047-hor-clsc_O-930138.jpg
+2024-07-17 19:15:58.024 | INFO     | __main__:omprint:28 - src: /rimg/himg/96/37/f6/leonardo-61201-156718556-840444.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.024 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/96/37/f6/leonardo-61201-156718556-840444.jpg
+2024-07-17 19:15:58.028 | INFO     | __main__:omprint:28 - src: /rimg/himg/e6/80/0f/leonardo-61201-150608698-151836.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.028 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/e6/80/0f/leonardo-61201-150608698-151836.jpg
+2024-07-17 19:15:58.037 | INFO     | __main__:omprint:28 - src: /rimg/himg/6a/80/ec/leonardo-61201-150608670-097742.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.037 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/6a/80/ec/leonardo-61201-150608670-097742.jpg
+2024-07-17 19:15:58.041 | INFO     | __main__:omprint:28 - src: /rimg/himg/8e/57/c3/leonardo-61201-150608722-203938.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.041 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/8e/57/c3/leonardo-61201-150608722-203938.jpg
+2024-07-17 19:15:58.045 | INFO     | __main__:omprint:28 - src: /rimg/himg/7a/05/8e/leonardo-61201-150608694-143231.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.046 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/7a/05/8e/leonardo-61201-150608694-143231.jpg
+2024-07-17 19:15:58.051 | INFO     | __main__:omprint:28 - src: /rimg/himg/78/40/bc/leonardo-61201-153695870-792128.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.051 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/78/40/bc/leonardo-61201-153695870-792128.jpg
+2024-07-17 19:15:58.055 | INFO     | __main__:omprint:28 - src: /rimg/himg/a3/f2/9c/leonardo-61201-150608710-178297.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.055 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/a3/f2/9c/leonardo-61201-150608710-178297.jpg
+2024-07-17 19:15:58.059 | INFO     | __main__:omprint:28 - src: /rimg/himg/1c/82/02/sembo-61201-98dd02-267069.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.060 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/1c/82/02/sembo-61201-98dd02-267069.jpg
+2024-07-17 19:15:58.063 | INFO     | __main__:omprint:28 - src: /rimg/himg/33/c1/64/expedia_group-61201-183137410-760374.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.064 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/33/c1/64/expedia_group-61201-183137410-760374.jpg
+2024-07-17 19:15:58.069 | INFO     | __main__:omprint:28 - src: /rimg/himg/f4/98/85/expedia_group-61201-7f4c4f2f-762722.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.069 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/f4/98/85/expedia_group-61201-7f4c4f2f-762722.jpg
+2024-07-17 19:15:58.073 | INFO     | __main__:omprint:28 - src: /rimg/himg/1f/7f/21/leonardo-1073533-sforz-wedding-0048-hor-clsc_O-431701.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.073 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/1f/7f/21/leonardo-1073533-sforz-wedding-0048-hor-clsc_O-431701.jpg
+2024-07-17 19:15:58.078 | INFO     | __main__:omprint:28 - src: /rimg/himg/0a/63/79/leonardo-61201-150608662-076980.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.078 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/0a/63/79/leonardo-61201-150608662-076980.jpg
+2024-07-17 19:15:58.084 | INFO     | __main__:omprint:28 - src: /rimg/himg/c1/9f/e2/leonardo-61201-150608762-293742.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.085 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/c1/9f/e2/leonardo-61201-150608762-293742.jpg
+2024-07-17 19:15:58.092 | INFO     | __main__:omprint:28 - src: /rimg/himg/3b/50/ba/leonardo-61201-150608690-134173.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.092 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/3b/50/ba/leonardo-61201-150608690-134173.jpg
+2024-07-17 19:15:58.105 | INFO     | __main__:omprint:28 - src: /rimg/himg/58/6d/aa/leonardo-61201-150608758-284954.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.105 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/58/6d/aa/leonardo-61201-150608758-284954.jpg
+2024-07-17 19:15:58.111 | INFO     | __main__:omprint:28 - src: /rimg/himg/a5/6e/f4/sembo-61201-35aea5-510144.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.111 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/a5/6e/f4/sembo-61201-35aea5-510144.jpg
+2024-07-17 19:15:58.121 | INFO     | __main__:omprint:28 - src: /rimg/himg/68/61/29/leonardo-61201-153695863-781899.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.122 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/68/61/29/leonardo-61201-153695863-781899.jpg
+2024-07-17 19:15:58.126 | INFO     | __main__:omprint:28 - src: /rimg/himg/a8/9f/13/leonardo-61201-150608666-088451.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.127 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/a8/9f/13/leonardo-61201-150608666-088451.jpg
+2024-07-17 19:15:58.155 | INFO     | __main__:omprint:28 - src: /rimg/himg/57/b5/b2/leonardo-61201-153695849-760711.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.156 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/57/b5/b2/leonardo-61201-153695849-760711.jpg
+2024-07-17 19:15:58.160 | INFO     | __main__:omprint:28 - src: /rimg/himg/f3/5b/ba/leonardo-61201-153565370-885773.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.161 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/f3/5b/ba/leonardo-61201-153565370-885773.jpg
+2024-07-17 19:15:58.165 | INFO     | __main__:omprint:28 - src: /rimg/himg/1a/1b/1b/leonardo-61201-161945153-606125.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.166 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/1a/1b/1b/leonardo-61201-161945153-606125.jpg
+2024-07-17 19:15:58.173 | INFO     | __main__:omprint:28 - src: /rimg/himg/2c/b9/3e/leonardo-61201-150608658-056518.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.173 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/2c/b9/3e/leonardo-61201-150608658-056518.jpg
+2024-07-17 19:15:58.178 | INFO     | __main__:omprint:28 - src: /rimg/himg/dc/09/e3/leonardo-1073533-sforz-wedding-0046-hor-clsc_O-160827.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.178 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/dc/09/e3/leonardo-1073533-sforz-wedding-0046-hor-clsc_O-160827.jpg
+2024-07-17 19:15:58.187 | INFO     | __main__:omprint:28 - src: /rimg/himg/f9/6c/a5/leonardo-61201-150608754-276227.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.187 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/f9/6c/a5/leonardo-61201-150608754-276227.jpg
+2024-07-17 19:15:58.191 | INFO     | __main__:omprint:28 - src: /rimg/himg/8c/44/2a/leonardo-61201-150608726-212706.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.192 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/8c/44/2a/leonardo-61201-150608726-212706.jpg
+2024-07-17 19:15:58.196 | INFO     | __main__:omprint:28 - src: /rimg/himg/1d/43/a7/leonardo-61201-161945129-589254.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.196 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/1d/43/a7/leonardo-61201-161945129-589254.jpg
+2024-07-17 19:15:58.207 | INFO     | __main__:omprint:28 - src: /rimg/himg/01/5c/10/leonardo-61201-150608682-115323.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.208 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/01/5c/10/leonardo-61201-150608682-115323.jpg
+2024-07-17 19:15:58.214 | INFO     | __main__:omprint:28 - src: /rimg/himg/12/99/25/leonardo-61201-161945241-676661.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.214 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/12/99/25/leonardo-61201-161945241-676661.jpg
+2024-07-17 19:15:58.221 | INFO     | __main__:omprint:28 - src: /rimg/himg/bb/44/c0/leonardo-61201-153565348-854957.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.222 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/bb/44/c0/leonardo-61201-153565348-854957.jpg
+2024-07-17 19:15:58.228 | INFO     | __main__:omprint:28 - src: /rimg/himg/d8/a7/04/leonardo-61201-161945089-553571.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.229 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/d8/a7/04/leonardo-61201-161945089-553571.jpg
+2024-07-17 19:15:58.237 | INFO     | __main__:omprint:28 - src: /rimg/himg/ce/c3/4c/leonardo-61201-161945189-630885.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.237 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/ce/c3/4c/leonardo-61201-161945189-630885.jpg
+2024-07-17 19:15:58.242 | INFO     | __main__:omprint:28 - src: /rimg/himg/94/49/86/leonardo-61201-153565364-875788.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.242 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/94/49/86/leonardo-61201-153565364-875788.jpg
+2024-07-17 19:15:58.249 | INFO     | __main__:omprint:28 - src: /rimg/himg/1c/56/bc/leonardo-61201-153695905-843431.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.250 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/1c/56/bc/leonardo-61201-153695905-843431.jpg
+2024-07-17 19:15:58.257 | INFO     | __main__:omprint:28 - src: /rimg/himg/7f/24/65/leonardo-61201-153695877-802483.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.258 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/7f/24/65/leonardo-61201-153695877-802483.jpg
+2024-07-17 19:15:58.264 | INFO     | __main__:omprint:28 - src: /rimg/himg/71/4a/69/sembo-61201-53e1cd-656433.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.264 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/71/4a/69/sembo-61201-53e1cd-656433.jpg
+2024-07-17 19:15:58.292 | INFO     | __main__:omprint:28 - src: /rimg/himg/cb/d7/8e/leonardo-61201-178258295-867780.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.293 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/cb/d7/8e/leonardo-61201-178258295-867780.jpg
+2024-07-17 19:15:58.296 | INFO     | __main__:omprint:28 - src: /rimg/himg/dd/45/c0/leonardo-61201-177953600-912760.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.297 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/dd/45/c0/leonardo-61201-177953600-912760.jpg
+2024-07-17 19:15:58.305 | INFO     | __main__:omprint:28 - src: /rimg/himg/7d/de/9f/leonardo-61201-150608730-221467.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.305 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/7d/de/9f/leonardo-61201-150608730-221467.jpg
+2024-07-17 19:15:58.310 | INFO     | __main__:omprint:28 - src: /rimg/himg/00/fd/eb/leonardo-61201-180740499-919320.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.311 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/00/fd/eb/leonardo-61201-180740499-919320.jpg
+2024-07-17 19:15:58.315 | INFO     | __main__:omprint:28 - src: /rimg/himg/7b/8d/19/leonardo-61201-150608750-267125.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.315 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/7b/8d/19/leonardo-61201-150608750-267125.jpg
+2024-07-17 19:15:58.322 | INFO     | __main__:omprint:28 - src: /rimg/himg/78/b8/39/leonardo-61201-161945229-665355.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.322 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/78/b8/39/leonardo-61201-161945229-665355.jpg
+2024-07-17 19:15:58.326 | INFO     | __main__:omprint:28 - src: /rimg/himg/f4/02/65/leonardo-61201-155871116-942680.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.326 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/f4/02/65/leonardo-61201-155871116-942680.jpg
+2024-07-17 19:15:58.330 | INFO     | __main__:omprint:28 - src: /rimg/himg/94/50/58/leonardo-61201-161945217-647056.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.331 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/94/50/58/leonardo-61201-161945217-647056.jpg
+2024-07-17 19:15:58.337 | INFO     | __main__:omprint:28 - src: /rimg/himg/49/b3/31/sembo-61201-25a4e0-396252.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.337 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/49/b3/31/sembo-61201-25a4e0-396252.jpg
+2024-07-17 19:15:58.341 | INFO     | __main__:omprint:28 - src: /rimg/himg/91/6a/24/leonardo-61201-153565356-865123.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.341 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/91/6a/24/leonardo-61201-153565356-865123.jpg
+2024-07-17 19:15:58.346 | INFO     | __main__:omprint:28 - src: /rimg/himg/3c/9c/92/expedia_group-61201-166002245-890100.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.346 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/3c/9c/92/expedia_group-61201-166002245-890100.jpg
+2024-07-17 19:15:58.356 | INFO     | __main__:omprint:28 - src: /rimg/himg/0f/08/d8/leonardo-61201-178258288-852190.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.356 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/0f/08/d8/leonardo-61201-178258288-852190.jpg
+2024-07-17 19:15:58.362 | INFO     | __main__:omprint:28 - src: /rimg/himg/4d/e1/b1/leonardo-61201-150608742-249582.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.362 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/4d/e1/b1/leonardo-61201-150608742-249582.jpg
+2024-07-17 19:15:58.369 | INFO     | __main__:omprint:28 - src: /rimg/himg/c3/52/c8/leonardo-61201-153695857-771186.jpg?width=836&height=607&crop=true
+2024-07-17 19:15:58.370 | INFO     | __main__:omprint:28 - full_url: https://www.kayak.com/rimg/himg/c3/52/c8/leonardo-61201-153695857-771186.jpg
+2024-07-17 19:15:58.779 | INFO     | __main__:omprint:28 - Descarga completada.
+2024-07-17 19:15:58.779 | INFO     | __main__:omprint:28 - ====================
+2024-07-17 19:15:58.779 | INFO     | __main__:omprint:28 - image_urls: ['https://www.kayak.com/rimg/himg/26/3b/88/leonardo-61201-150608796-348102.jpg', 'https://www.kayak.com/rimg/himg/7e/08/a2/leonardo-61201-150608800-357201.jpg', 'https://www.kayak.com/rimg/himg/78/bc/07/leonardo-61201-161945177-622592.jpg', 'https://www.kayak.com/rimg/himg/b9/fe/97/leonardo-61201-175638799-708213.jpg', 'https://www.kayak.com/rimg/himg/cd/9d/75/leonardo-61201-150608678-106464.jpg', 'https://www.kayak.com/rimg/himg/e3/55/eb/leonardo-61201-150608674-972649.jpg', 'https://www.kayak.com/rimg/himg/a1/6e/04/leonardo-61201-175638775-687331.jpg', 'https://www.kayak.com/rimg/himg/f0/e1/f8/sembo-61201-b64b8e-116432.jpg', 'https://www.kayak.com/rimg/himg/a2/07/ab/leonardo-61201-150608714-186866.jpg', 'https://www.kayak.com/rimg/himg/56/30/e0/sembo-61201-9e723a-640802.jpg', 'https://www.kayak.com/rimg/himg/db/c8/05/leonardo-2702486-sforz-wedding-0047-hor-clsc_O-930138.jpg', 'https://www.kayak.com/rimg/himg/96/37/f6/leonardo-61201-156718556-840444.jpg', 'https://www.kayak.com/rimg/himg/e6/80/0f/leonardo-61201-150608698-151836.jpg', 'https://www.kayak.com/rimg/himg/6a/80/ec/leonardo-61201-150608670-097742.jpg', 'https://www.kayak.com/rimg/himg/8e/57/c3/leonardo-61201-150608722-203938.jpg', 'https://www.kayak.com/rimg/himg/7a/05/8e/leonardo-61201-150608694-143231.jpg', 'https://www.kayak.com/rimg/himg/78/40/bc/leonardo-61201-153695870-792128.jpg', 'https://www.kayak.com/rimg/himg/a3/f2/9c/leonardo-61201-150608710-178297.jpg', 'https://www.kayak.com/rimg/himg/1c/82/02/sembo-61201-98dd02-267069.jpg', 'https://www.kayak.com/rimg/himg/33/c1/64/expedia_group-61201-183137410-760374.jpg', 'https://www.kayak.com/rimg/himg/f4/98/85/expedia_group-61201-7f4c4f2f-762722.jpg', 'https://www.kayak.com/rimg/himg/1f/7f/21/leonardo-1073533-sforz-wedding-0048-hor-clsc_O-431701.jpg', 'https://www.kayak.com/rimg/himg/0a/63/79/leonardo-61201-150608662-076980.jpg', 'https://www.kayak.com/rimg/himg/c1/9f/e2/leonardo-61201-150608762-293742.jpg', 'https://www.kayak.com/rimg/himg/3b/50/ba/leonardo-61201-150608690-134173.jpg', 'https://www.kayak.com/rimg/himg/58/6d/aa/leonardo-61201-150608758-284954.jpg', 'https://www.kayak.com/rimg/himg/a5/6e/f4/sembo-61201-35aea5-510144.jpg', 'https://www.kayak.com/rimg/himg/68/61/29/leonardo-61201-153695863-781899.jpg', 'https://www.kayak.com/rimg/himg/a8/9f/13/leonardo-61201-150608666-088451.jpg', 'https://www.kayak.com/rimg/himg/57/b5/b2/leonardo-61201-153695849-760711.jpg', 'https://www.kayak.com/rimg/himg/f3/5b/ba/leonardo-61201-153565370-885773.jpg', 'https://www.kayak.com/rimg/himg/1a/1b/1b/leonardo-61201-161945153-606125.jpg', 'https://www.kayak.com/rimg/himg/2c/b9/3e/leonardo-61201-150608658-056518.jpg', 'https://www.kayak.com/rimg/himg/dc/09/e3/leonardo-1073533-sforz-wedding-0046-hor-clsc_O-160827.jpg', 'https://www.kayak.com/rimg/himg/f9/6c/a5/leonardo-61201-150608754-276227.jpg', 'https://www.kayak.com/rimg/himg/8c/44/2a/leonardo-61201-150608726-212706.jpg', 'https://www.kayak.com/rimg/himg/1d/43/a7/leonardo-61201-161945129-589254.jpg', 'https://www.kayak.com/rimg/himg/01/5c/10/leonardo-61201-150608682-115323.jpg', 'https://www.kayak.com/rimg/himg/12/99/25/leonardo-61201-161945241-676661.jpg', 'https://www.kayak.com/rimg/himg/bb/44/c0/leonardo-61201-153565348-854957.jpg', 'https://www.kayak.com/rimg/himg/d8/a7/04/leonardo-61201-161945089-553571.jpg', 'https://www.kayak.com/rimg/himg/ce/c3/4c/leonardo-61201-161945189-630885.jpg', 'https://www.kayak.com/rimg/himg/94/49/86/leonardo-61201-153565364-875788.jpg', 'https://www.kayak.com/rimg/himg/1c/56/bc/leonardo-61201-153695905-843431.jpg', 'https://www.kayak.com/rimg/himg/7f/24/65/leonardo-61201-153695877-802483.jpg', 'https://www.kayak.com/rimg/himg/71/4a/69/sembo-61201-53e1cd-656433.jpg', 'https://www.kayak.com/rimg/himg/cb/d7/8e/leonardo-61201-178258295-867780.jpg', 'https://www.kayak.com/rimg/himg/dd/45/c0/leonardo-61201-177953600-912760.jpg', 'https://www.kayak.com/rimg/himg/7d/de/9f/leonardo-61201-150608730-221467.jpg', 'https://www.kayak.com/rimg/himg/00/fd/eb/leonardo-61201-180740499-919320.jpg', 'https://www.kayak.com/rimg/himg/7b/8d/19/leonardo-61201-150608750-267125.jpg', 'https://www.kayak.com/rimg/himg/78/b8/39/leonardo-61201-161945229-665355.jpg', 'https://www.kayak.com/rimg/himg/f4/02/65/leonardo-61201-155871116-942680.jpg', 'https://www.kayak.com/rimg/himg/94/50/58/leonardo-61201-161945217-647056.jpg', 'https://www.kayak.com/rimg/himg/49/b3/31/sembo-61201-25a4e0-396252.jpg', 'https://www.kayak.com/rimg/himg/91/6a/24/leonardo-61201-153565356-865123.jpg', 'https://www.kayak.com/rimg/himg/3c/9c/92/expedia_group-61201-166002245-890100.jpg', 'https://www.kayak.com/rimg/himg/0f/08/d8/leonardo-61201-178258288-852190.jpg', 'https://www.kayak.com/rimg/himg/4d/e1/b1/leonardo-61201-150608742-249582.jpg', 'https://www.kayak.com/rimg/himg/c3/52/c8/leonardo-61201-153695857-771186.jpg']
+2024-07-17 19:15:58.780 | INFO     | __main__:omprint:28 - ====================
+2024-07-17 19:16:03.699 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-17 19:16:03.699 | INFO     | __main__:omprint:28 - {'url': 'https://www.kayak.com/rimg/himg/26/3b/88/leonardo-61201-150608796-348102.jpg', 'description': 'Luxurious lounge area features elegant chandeliers, plush seating, and a grand fireplace, all set against a backdrop of large windows and sophisticated wall art.'}
+2024-07-17 19:16:03.700 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-17 19:16:08.043 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-17 19:16:08.043 | INFO     | __main__:omprint:28 - {'url': 'https://www.kayak.com/rimg/himg/7e/08/a2/leonardo-61201-150608800-357201.jpg', 'description': 'Dimly lit bar area features modern decor with red under-lit counters, plush seating, and large mirrors reflecting geometric light fixtures, creating an upscale and inviting atmosphere.'}
+2024-07-17 19:16:08.043 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-17 19:16:11.224 | INFO     | __main__:omprint:28 - selected_images: [{'url': 'https://www.kayak.com/rimg/himg/26/3b/88/leonardo-61201-150608796-348102.jpg', 'description': 'Luxurious lounge area features elegant chandeliers, plush seating, and a grand fireplace, all set against a backdrop of large windows and sophisticated wall art.'}, {'url': 'https://www.kayak.com/rimg/himg/7e/08/a2/leonardo-61201-150608800-357201.jpg', 'description': 'Dimly lit bar area features modern decor with red under-lit counters, plush seating, and large mirrors reflecting geometric light fixtures, creating an upscale and inviting atmosphere.'}]
+2024-07-17 19:16:11.225 | INFO     | __main__:omprint:28 - ====================
+2024-07-17 19:16:11.225 | INFO     | __main__:omprint:28 - ====================
+2024-07-17 19:16:11.411 | INFO     | __main__:omprint:28 - ====================
+2024-07-17 19:16:11.412 | INFO     | __main__:omprint:28 - img_filename, audio_filename: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/images/image_0.jpg ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/audios/audio_0.mp3
+2024-07-17 19:16:11.413 | INFO     | __main__:omprint:28 - Ruta creada: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/images
+2024-07-17 19:16:12.010 | INFO     | __main__:omprint:28 - Ruta creada: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/audios
+2024-07-17 19:16:12.010 | INFO     | __main__:omprint:28 - get_polly_response: neural Joanna Luxurious lounge area features elegant chandeliers, plush seating, and a grand fireplace, all set against a backdrop of large windows and sophisticated wall art. 100%
+2024-07-17 19:16:12.010 | INFO     | __main__:omprint:28 - {'Engine': 'neural', 'LanguageCode': 'en-US', 'VoiceId': 'Joanna', 'Gender': 'Female', 'TextType': 'ssml', 'Newscaster': 'news'}
+2024-07-17 19:16:12.267 | INFO     | __main__:omprint:28 - get_polly_response: <speak><prosody rate="100%"><amazon:domain name="news">Luxurious lounge area features elegant chandeliers, plush seating, and a grand fireplace, all set against a backdrop of large windows and sophisticated wall art.</amazon:domain></prosody></speak> ssml Joanna en-US
+2024-07-17 19:16:12.863 | INFO     | __main__:omprint:28 - thumb_filename: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/thumbnail/a9730c8f-a0e4-416a-bd79-b7846122b07c.jpg
+2024-07-17 19:16:12.864 | INFO     | __main__:omprint:28 - Ruta creada: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/thumbnail
+2024-07-17 19:16:12.864 | INFO     | __main__:omprint:28 - ==========================
+2024-07-17 19:16:12.864 | INFO     | __main__:omprint:28 - image_path: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/images/image_0.jpg
+2024-07-17 19:16:12.865 | INFO     | __main__:omprint:28 - ==========================
+2024-07-17 19:16:13.216 | INFO     | __main__:omprint:28 - img_filename, audio_filename: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/images/image_1.jpg ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/audios/audio_1.mp3
+2024-07-17 19:16:13.217 | INFO     | __main__:omprint:28 - La ruta ya existe: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/images
+2024-07-17 19:16:13.617 | INFO     | __main__:omprint:28 - La ruta ya existe: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/audios
+2024-07-17 19:16:13.617 | INFO     | __main__:omprint:28 - get_polly_response: neural Joanna Dimly lit bar area features modern decor with red under-lit counters, plush seating, and large mirrors reflecting geometric light fixtures, creating an upscale and inviting atmosphere. 100%
+2024-07-17 19:16:13.618 | INFO     | __main__:omprint:28 - {'Engine': 'neural', 'LanguageCode': 'en-US', 'VoiceId': 'Joanna', 'Gender': 'Female', 'TextType': 'ssml', 'Newscaster': 'news'}
+2024-07-17 19:16:13.691 | INFO     | __main__:omprint:28 - get_polly_response: <speak><prosody rate="100%"><amazon:domain name="news">Dimly lit bar area features modern decor with red under-lit counters, plush seating, and large mirrors reflecting geometric light fixtures, creating an upscale and inviting atmosphere.</amazon:domain></prosody></speak> ssml Joanna en-US
+2024-07-17 19:16:14.294 | INFO     | __main__:omprint:28 - ---------------------------------------------------
+2024-07-17 19:16:14.294 | INFO     | __main__:omprint:28 - num_elements, thumb_filename: 2 ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/thumbnail/a9730c8f-a0e4-416a-bd79-b7846122b07c.jpg
+2024-07-17 19:16:14.295 | INFO     | __main__:omprint:28 - ---------------------------------------------------
+2024-07-17 19:16:14.295 | INFO     | __main__:omprint:28 - Ruta creada: ./public/a9730c8f-a0e4-416a-bd79-b7846122b07c/videos

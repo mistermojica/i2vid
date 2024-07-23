@@ -1,0 +1,202 @@
+2024-07-18 07:13:29.843 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-18 07:13:29.843 | INFO     | __main__:omprint:28 - Servidor Flask corriendo en el puerto 6547
+2024-07-18 07:13:29.843 | INFO     | __main__:omprint:28 - --------------------------------------------
+2024-07-18 07:14:20.821 | INFO     | __main__:omprint:28 - No se encontró el botón en ninguno de los dos idiomas.
+2024-07-18 07:14:21.059 | INFO     | __main__:omprint:28 - Traceback (most recent call last):
+
+2024-07-18 07:14:21.060 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.061 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.061 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.062 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.062 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 559, in process_request
+    asyncio.run(main(url, language, voice, property_type, property_name))
+
+2024-07-18 07:14:21.062 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.063 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.063 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.063 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 461, in main
+    image_urls = await extract_images(url)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.064 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 87, in extract_images
+    await page.wait_for_selector('div.AGBC-carousel-container')
+
+2024-07-18 07:14:21.064 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 8308, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+
+2024-07-18 07:14:21.064 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_page.py", line 346, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.064 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 316, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+
+2024-07-18 07:14:21.065 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.065 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 490, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+
+2024-07-18 07:14:21.065 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 99, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:14:21.066 | INFO     | __main__:omprint:28 - playwright._impl._api_types.Error: Target page, context or browser has been closed
+
+2024-07-18 07:41:21.749 | INFO     | __main__:omprint:28 - Traceback (most recent call last):
+
+2024-07-18 07:41:21.780 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.783 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.799 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.814 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.816 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 559, in process_request
+    asyncio.run(main(url, language, voice, property_type, property_name))
+
+2024-07-18 07:41:21.880 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.915 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.917 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.930 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 461, in main
+    image_urls = await extract_images(url)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.932 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 74, in extract_images
+    await page.goto(url)
+
+2024-07-18 07:41:21.933 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 9251, in goto
+    await self._impl_obj.goto(
+
+2024-07-18 07:41:21.935 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_page.py", line 473, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.948 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 138, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+
+2024-07-18 07:41:21.951 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.963 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 490, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+
+2024-07-18 07:41:21.966 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 99, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:41:21.967 | INFO     | __main__:omprint:28 - playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.kayak.com.do/hotels/Calgary-p62667-h10119153-details", waiting until "load"
+============================================================
+
+2024-07-18 07:42:33.029 | INFO     | __main__:omprint:28 - Traceback (most recent call last):
+
+2024-07-18 07:42:33.045 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.058 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.062 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.177 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.179 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 559, in process_request
+    asyncio.run(main(url, language, voice, property_type, property_name))
+
+2024-07-18 07:42:33.278 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.292 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.293 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.308 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 461, in main
+    image_urls = await extract_images(url)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.311 | INFO     | __main__:omprint:28 -   File "/Users/omarmojica/proyectos/openai/python/i2vid/main.py", line 74, in extract_images
+    await page.goto(url)
+
+2024-07-18 07:42:33.313 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/async_api/_generated.py", line 9251, in goto
+    await self._impl_obj.goto(
+
+2024-07-18 07:42:33.326 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_page.py", line 473, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.327 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 138, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+
+2024-07-18 07:42:33.328 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.778 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 490, in wrap_api_call
+    return await cb()
+           ^^^^^^^^^^
+
+2024-07-18 07:42:33.793 | INFO     | __main__:omprint:28 -   File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 99, in inner_send
+    result = next(iter(done)).result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-18 07:42:33.797 | INFO     | __main__:omprint:28 - playwright._impl._api_types.TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+navigating to "https://www.kayak.com.do/hotels/Calgary-p62667-h10119153-details", waiting until "load"
+============================================================
+
