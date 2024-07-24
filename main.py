@@ -14,6 +14,7 @@ import threading
 from flask import Flask, request, jsonify, send_from_directory, render_template_string
 from loguru import logger
 from PIL import Image
+from datetime import datetime
 
 try:
     from dotenv import load_dotenv, find_dotenv
@@ -23,6 +24,7 @@ except Exception as err:
     print(err)
     
 import builtins
+
 original_print = print
 def omprint(*args, **kwargs):
     logger.info(" ".join(map(str, args)))
@@ -32,7 +34,9 @@ builtins.print = omprint
 
 uuid4 = uuid.uuid4()
 
-logger.add(f"file_{uuid4}.log", rotation="1 day")
+PUBLIC_FOLDER = 'public'
+
+logger.add(f"./logs/file_{uuid4}.log", rotation="1 day")
 
 PORT = os.environ.get("PORT", "")
 
@@ -67,7 +71,7 @@ async def extract_property_data(url):
 
     async with async_playwright() as p:
         # Inicializar el navegador en modo headless
-        browser = await p.firefox.launch(headless=False)  # Cambia a True si no necesitas ver el navegador
+        browser = await p.firefox.launch(headless=True)  # Cambia a True si no necesitas ver el navegador
         page = await browser.new_page()
 
         # Navegar a la URL
@@ -114,7 +118,7 @@ async def extract_property_data(url):
             "property_image_urls": property_image_urls
         }
 
-        print(property_data)
+        # print(property_data)
 
     return property_data
 
@@ -225,7 +229,7 @@ def analyze_single_image(image_url):
     ]
 
     response = openai.chat.completions.create(
-        model="gpt-4o",
+        model="gpt-4o-mini",
         messages=messages,
         temperature=0.0,
     )
@@ -467,7 +471,7 @@ async def main(url, language, voice, property_type, property_name_param, number_
     start_time = time.time()
     
     # Iniciar el servidor HTTP en un hilo separado
-    directory = './public'
+    directory = f'./{PUBLIC_FOLDER}'
     
     # url = 'https://www.trulia.com/home/282-s-95th-pl-chandler-az-85224-8207993?mid=0#lil-mediaTab'
     # url = 'https://www.trulia.com/builder-community-plan/Prestwick-Place-Huxley-2059141968?mid=0#lil-mediaTab'
@@ -476,7 +480,7 @@ async def main(url, language, voice, property_type, property_name_param, number_
     
     download_path = f'{directory}/{uuid4}'
     
-    server_url = f"https://r3pmxssr-{PORT}.use2.devtunnels.ms"
+    server_url = f"https://llfgcl66-{PORT}.use2.devtunnels.ms"
 
     # Llamar a la función para borrar el contenido de la carpeta
     clear_directory(download_path)
@@ -486,6 +490,8 @@ async def main(url, language, voice, property_type, property_name_param, number_
     property_name = property_name_param or property_data["property_name"]
 
     property_image_urls = property_data["property_image_urls"]
+    
+    property_image_urls = property_image_urls[:number_images]
 
     print("Descarga completada.")
 
@@ -495,8 +501,6 @@ async def main(url, language, voice, property_type, property_name_param, number_
     
     print("property_image_urls:", property_image_urls)
     
-    # property_image_urls = property_image_urls[:2]
-
     print("====================")
 
     # property_type = "villa accommodation"
@@ -569,7 +573,7 @@ async def main(url, language, voice, property_type, property_name_param, number_
     return {"execution_time": execution_time}
 
 
-app = Flask(__name__, static_folder='public')
+app = Flask(__name__, static_folder=PUBLIC_FOLDER)
 
 @app.route('/process', methods=['POST'])
 def process_request():
@@ -579,8 +583,8 @@ def process_request():
     voice = data.get('voice', 'Joanna')
     property_type = data.get('property_type')
     property_name = data.get('property_name')
-    number_images = data.get('number_images')
-    
+    number_images = int(data.get('number_images'))
+
     if not url or not property_type:
         return jsonify({"error": "Missing required parameters"}), 400
 
@@ -603,6 +607,27 @@ def serve_file_or_directory(path):
     else:
         return send_from_directory(app.static_folder, path)
 
+
+@app.route('/properties', methods=['GET'])
+def list_videos():
+    video_files = []
+
+    for root, dirs, files in os.walk(PUBLIC_FOLDER):
+        for dir_name in dirs:
+            video_path = os.path.join(root, dir_name, 'videos')
+            if os.path.exists(video_path):
+                for file_name in os.listdir(video_path):
+                    if file_name.endswith('.mp4'):
+                        file_path = os.path.join(video_path, file_name)
+                        modified_time = os.path.getmtime(file_path)
+                        video_files.append({
+                            "filename": file_path,
+                            "modified": datetime.fromtimestamp(modified_time).strftime('%Y-%m-%d %H:%M:%S')
+                        })
+
+    # Ordenar los archivos por tiempo de modificación en orden descendente
+    video_files.sort(key=lambda x: x["modified"], reverse=True)
+    return jsonify(video_files)
 
 if __name__ == '__main__':
     print(f"--------------------------------------------")

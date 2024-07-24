@@ -1,0 +1,65 @@
+2024-07-23 09:25:01.263 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 09:25:01.264 | INFO     | __main__:omprint:30 - Servidor Flask corriendo en el puerto 8996
+2024-07-23 09:25:01.264 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 09:25:19.678 | INFO     | __main__:omprint:30 - Traceback (most recent call last):
+
+2024-07-23 09:25:19.680 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.681 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.681 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.681 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.681 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 591, in process_request
+    asyncio.run(main(url, language, voice, property_type, property_name, number_images))
+
+2024-07-23 09:25:19.681 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.682 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.682 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.682 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 488, in main
+    property_data = await extract_property_data(url)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.682 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 78, in extract_property_data
+    await page.goto(url)
+
+2024-07-23 09:25:19.682 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/playwright/async_api/_generated.py", line 8818, in goto
+    await self._impl_obj.goto(
+
+2024-07-23 09:25:19.683 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/playwright/_impl/_page.py", line 524, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.683 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+
+2024-07-23 09:25:19.683 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 09:25:19.683 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/playwright/_impl/_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+
+2024-07-23 09:25:19.683 | INFO     | __main__:omprint:30 - playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+Call log:
+navigating to "https://www.kayak.com.do/hotels/The-Real-Bill-Mccoy-House,Holly-Hill-p53806-h1071277015-details/2024-08-12/2024-08-30/2adults?psid=mSBkEu6TfR&pm=daybase", waiting until "load"
+
+

@@ -1,0 +1,5 @@
+2024-07-23 17:13:50.401 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 17:13:50.402 | INFO     | __main__:omprint:30 - Servidor Flask corriendo en el puerto 8996
+2024-07-23 17:13:50.402 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 17:13:50.404 | INFO     | __main__:omprint:30 - Address already in use
+2024-07-23 17:13:50.404 | INFO     | __main__:omprint:30 - Port 8996 is in use by another program. Either identify and stop that program, or start the server with a different port.

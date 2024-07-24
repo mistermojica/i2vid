@@ -1,0 +1,114 @@
+2024-07-23 21:56:23.924 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 21:56:23.925 | INFO     | __main__:omprint:30 - Servidor Flask corriendo en el puerto 8996
+2024-07-23 21:56:23.925 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 21:57:07.750 | INFO     | __main__:omprint:30 - carousel_div: JSHandle@node
+2024-07-23 21:57:07.910 | INFO     | __main__:omprint:30 - img_elements: [<JSHandle preview=JSHandle@<img class="f800-image" alt="vista Piscina de The Real Bill Mccoy House" aria-describedby="photo-description-0bfa70dde6465" src="/rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg?width=836&height=607&crop=true"/>>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>]
+2024-07-23 21:57:07.944 | INFO     | __main__:omprint:30 - src: /rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:07.945 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg
+2024-07-23 21:57:07.956 | INFO     | __main__:omprint:30 - src: /rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:07.956 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg
+2024-07-23 21:57:07.963 | INFO     | __main__:omprint:30 - src: /rimg/himg/df/f7/38/booking-1071277015-545370648-447869.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:07.964 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/df/f7/38/booking-1071277015-545370648-447869.jpg
+2024-07-23 21:57:07.979 | INFO     | __main__:omprint:30 - src: /rimg/himg/01/7c/55/booking-1071277015-545370635-430065.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:07.979 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/01/7c/55/booking-1071277015-545370635-430065.jpg
+2024-07-23 21:57:07.994 | INFO     | __main__:omprint:30 - src: /rimg/himg/77/6b/12/booking-1071277015-545370701-563134.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:07.994 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/77/6b/12/booking-1071277015-545370701-563134.jpg
+2024-07-23 21:57:08.002 | INFO     | __main__:omprint:30 - src: /rimg/himg/e0/d9/07/booking-1071277015-545370683-527096.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.003 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/e0/d9/07/booking-1071277015-545370683-527096.jpg
+2024-07-23 21:57:08.012 | INFO     | __main__:omprint:30 - src: /rimg/himg/0c/c9/60/booking-1071277015-545370670-500644.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.013 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/0c/c9/60/booking-1071277015-545370670-500644.jpg
+2024-07-23 21:57:08.022 | INFO     | __main__:omprint:30 - src: /rimg/himg/d0/0a/8b/booking-1071277015-545370690-535856.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.022 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/d0/0a/8b/booking-1071277015-545370690-535856.jpg
+2024-07-23 21:57:08.029 | INFO     | __main__:omprint:30 - src: /rimg/himg/43/71/0a/booking-1071277015-545370704-572114.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.029 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/43/71/0a/booking-1071277015-545370704-572114.jpg
+2024-07-23 21:57:08.038 | INFO     | __main__:omprint:30 - src: /rimg/himg/af/ae/c8/booking-1071277015-545370622-392702.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.038 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/af/ae/c8/booking-1071277015-545370622-392702.jpg
+2024-07-23 21:57:08.046 | INFO     | __main__:omprint:30 - src: /rimg/himg/90/f9/a8/booking-1071277015-545370677-518290.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.046 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/90/f9/a8/booking-1071277015-545370677-518290.jpg
+2024-07-23 21:57:08.056 | INFO     | __main__:omprint:30 - src: /rimg/himg/b4/9c/32/booking-1071277015-545370660-474248.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.056 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/b4/9c/32/booking-1071277015-545370660-474248.jpg
+2024-07-23 21:57:08.062 | INFO     | __main__:omprint:30 - src: /rimg/himg/a0/63/c9/booking-1071277015-545370657-465518.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.063 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/a0/63/c9/booking-1071277015-545370657-465518.jpg
+2024-07-23 21:57:08.071 | INFO     | __main__:omprint:30 - src: /rimg/himg/ad/ea/93/booking-1071277015-545370694-545512.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.072 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/ad/ea/93/booking-1071277015-545370694-545512.jpg
+2024-07-23 21:57:08.079 | INFO     | __main__:omprint:30 - src: /rimg/himg/bc/aa/10/booking-1071277015-545370627-401521.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.079 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/bc/aa/10/booking-1071277015-545370627-401521.jpg
+2024-07-23 21:57:08.086 | INFO     | __main__:omprint:30 - src: /rimg/himg/80/ba/b5/booking-1071277015-545370642-438862.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.087 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/80/ba/b5/booking-1071277015-545370642-438862.jpg
+2024-07-23 21:57:08.095 | INFO     | __main__:omprint:30 - src: /rimg/himg/54/2a/c7/booking-1071277015-547417965-634125.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.095 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/54/2a/c7/booking-1071277015-547417965-634125.jpg
+2024-07-23 21:57:08.102 | INFO     | __main__:omprint:30 - src: /rimg/himg/35/f9/40/booking-1071277015-545370698-554397.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.102 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/35/f9/40/booking-1071277015-545370698-554397.jpg
+2024-07-23 21:57:08.108 | INFO     | __main__:omprint:30 - src: /rimg/himg/14/9f/99/booking-1071277015-545370674-509545.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.109 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/14/9f/99/booking-1071277015-545370674-509545.jpg
+2024-07-23 21:57:08.116 | INFO     | __main__:omprint:30 - src: /rimg/himg/f1/05/6a/booking-1071277015-545370633-421173.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.117 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/f1/05/6a/booking-1071277015-545370633-421173.jpg
+2024-07-23 21:57:08.123 | INFO     | __main__:omprint:30 - src: /rimg/himg/96/09/43/booking-1071277015-545370710-580872.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.123 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/96/09/43/booking-1071277015-545370710-580872.jpg
+2024-07-23 21:57:08.130 | INFO     | __main__:omprint:30 - src: /rimg/himg/2c/e9/ba/booking-1071277015-545370649-456691.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.131 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/2c/e9/ba/booking-1071277015-545370649-456691.jpg
+2024-07-23 21:57:08.138 | INFO     | __main__:omprint:30 - src: /rimg/himg/a7/05/f6/booking-1071277015-545370721-598532.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.139 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/a7/05/f6/booking-1071277015-545370721-598532.jpg
+2024-07-23 21:57:08.145 | INFO     | __main__:omprint:30 - src: /rimg/himg/d3/d0/7d/booking-1071277015-545370722-607616.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.145 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/d3/d0/7d/booking-1071277015-545370722-607616.jpg
+2024-07-23 21:57:08.152 | INFO     | __main__:omprint:30 - src: /rimg/himg/33/55/98/booking-1071277015-547417966-642889.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.152 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/33/55/98/booking-1071277015-547417966-642889.jpg
+2024-07-23 21:57:08.160 | INFO     | __main__:omprint:30 - src: /rimg/himg/86/45/b4/booking-1071277015-545370725-616387.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.160 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/86/45/b4/booking-1071277015-545370725-616387.jpg
+2024-07-23 21:57:08.166 | INFO     | __main__:omprint:30 - src: /rimg/himg/94/09/0c/booking-1071277015-545370630-412039.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.167 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/94/09/0c/booking-1071277015-545370630-412039.jpg
+2024-07-23 21:57:08.175 | INFO     | __main__:omprint:30 - src: /rimg/himg/10/7d/ba/booking-1071277015-545370604-361646.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.175 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/10/7d/ba/booking-1071277015-545370604-361646.jpg
+2024-07-23 21:57:08.182 | INFO     | __main__:omprint:30 - src: /rimg/himg/b8/e8/69/booking-1071277015-545370666-491899.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.182 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/b8/e8/69/booking-1071277015-545370666-491899.jpg
+2024-07-23 21:57:08.188 | INFO     | __main__:omprint:30 - src: /rimg/himg/cf/c1/94/booking-1071277015-545370718-589707.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.188 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/cf/c1/94/booking-1071277015-545370718-589707.jpg
+2024-07-23 21:57:08.196 | INFO     | __main__:omprint:30 - src: /rimg/himg/df/f7/4a/booking-1071277015-545370664-483086.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.197 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/df/f7/4a/booking-1071277015-545370664-483086.jpg
+2024-07-23 21:57:08.203 | INFO     | __main__:omprint:30 - src: /rimg/himg/5e/e6/cb/booking-1071277015-545370727-625107.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.204 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/5e/e6/cb/booking-1071277015-545370727-625107.jpg
+2024-07-23 21:57:08.210 | INFO     | __main__:omprint:30 - src: /rimg/himg/a3/d1/9a/booking-1071277015-547417975-651629.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.210 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/a3/d1/9a/booking-1071277015-547417975-651629.jpg
+2024-07-23 21:57:08.217 | INFO     | __main__:omprint:30 - src: /rimg/himg/59/00/ac/booking-1071277015-547417976-660530.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.217 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/59/00/ac/booking-1071277015-547417976-660530.jpg
+2024-07-23 21:57:08.224 | INFO     | __main__:omprint:30 - src: /rimg/himg/8c/11/1d/booking-1071277015-547417985-678885.jpg?width=836&height=607&crop=true
+2024-07-23 21:57:08.224 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/8c/11/1d/booking-1071277015-547417985-678885.jpg
+2024-07-23 21:57:08.949 | INFO     | __main__:omprint:30 - Traceback (most recent call last):
+
+2024-07-23 21:57:08.950 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.950 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.950 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.950 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.950 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 591, in process_request
+    asyncio.run(main(url, language, voice, property_type, property_name, number_images))
+
+2024-07-23 21:57:08.951 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.951 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.951 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.951 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 494, in main
+    property_image_urls = property_image_urls[:number_images]
+                          ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+
+2024-07-23 21:57:08.951 | INFO     | __main__:omprint:30 - TypeError: slice indices must be integers or None or have an __index__ method
+

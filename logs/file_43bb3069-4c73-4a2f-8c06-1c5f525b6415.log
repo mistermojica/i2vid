@@ -1,0 +1,155 @@
+2024-07-23 22:36:24.628 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 22:36:24.629 | INFO     | __main__:omprint:30 - Servidor Flask corriendo en el puerto 8996
+2024-07-23 22:36:24.630 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 22:37:12.947 | INFO     | __main__:omprint:30 - carousel_div: JSHandle@node
+2024-07-23 22:37:13.061 | INFO     | __main__:omprint:30 - img_elements: [<JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>]
+2024-07-23 22:37:13.096 | INFO     | __main__:omprint:30 - src: /rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.097 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg
+2024-07-23 22:37:13.108 | INFO     | __main__:omprint:30 - src: /rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.109 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg
+2024-07-23 22:37:13.121 | INFO     | __main__:omprint:30 - src: /rimg/himg/df/f7/38/booking-1071277015-545370648-447869.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.121 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/df/f7/38/booking-1071277015-545370648-447869.jpg
+2024-07-23 22:37:13.137 | INFO     | __main__:omprint:30 - src: /rimg/himg/01/7c/55/booking-1071277015-545370635-430065.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.138 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/01/7c/55/booking-1071277015-545370635-430065.jpg
+2024-07-23 22:37:13.153 | INFO     | __main__:omprint:30 - src: /rimg/himg/77/6b/12/booking-1071277015-545370701-563134.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.154 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/77/6b/12/booking-1071277015-545370701-563134.jpg
+2024-07-23 22:37:13.167 | INFO     | __main__:omprint:30 - src: /rimg/himg/e0/d9/07/booking-1071277015-545370683-527096.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.168 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/e0/d9/07/booking-1071277015-545370683-527096.jpg
+2024-07-23 22:37:13.185 | INFO     | __main__:omprint:30 - src: /rimg/himg/0c/c9/60/booking-1071277015-545370670-500644.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.185 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/0c/c9/60/booking-1071277015-545370670-500644.jpg
+2024-07-23 22:37:13.203 | INFO     | __main__:omprint:30 - src: /rimg/himg/d0/0a/8b/booking-1071277015-545370690-535856.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.203 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/d0/0a/8b/booking-1071277015-545370690-535856.jpg
+2024-07-23 22:37:13.227 | INFO     | __main__:omprint:30 - src: /rimg/himg/43/71/0a/booking-1071277015-545370704-572114.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.227 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/43/71/0a/booking-1071277015-545370704-572114.jpg
+2024-07-23 22:37:13.237 | INFO     | __main__:omprint:30 - src: /rimg/himg/af/ae/c8/booking-1071277015-545370622-392702.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.238 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/af/ae/c8/booking-1071277015-545370622-392702.jpg
+2024-07-23 22:37:13.245 | INFO     | __main__:omprint:30 - src: /rimg/himg/90/f9/a8/booking-1071277015-545370677-518290.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.246 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/90/f9/a8/booking-1071277015-545370677-518290.jpg
+2024-07-23 22:37:13.254 | INFO     | __main__:omprint:30 - src: /rimg/himg/b4/9c/32/booking-1071277015-545370660-474248.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.255 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/b4/9c/32/booking-1071277015-545370660-474248.jpg
+2024-07-23 22:37:13.263 | INFO     | __main__:omprint:30 - src: /rimg/himg/a0/63/c9/booking-1071277015-545370657-465518.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.264 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/a0/63/c9/booking-1071277015-545370657-465518.jpg
+2024-07-23 22:37:13.272 | INFO     | __main__:omprint:30 - src: /rimg/himg/ad/ea/93/booking-1071277015-545370694-545512.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.272 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/ad/ea/93/booking-1071277015-545370694-545512.jpg
+2024-07-23 22:37:13.284 | INFO     | __main__:omprint:30 - src: /rimg/himg/bc/aa/10/booking-1071277015-545370627-401521.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.285 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/bc/aa/10/booking-1071277015-545370627-401521.jpg
+2024-07-23 22:37:13.296 | INFO     | __main__:omprint:30 - src: /rimg/himg/80/ba/b5/booking-1071277015-545370642-438862.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.296 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/80/ba/b5/booking-1071277015-545370642-438862.jpg
+2024-07-23 22:37:13.309 | INFO     | __main__:omprint:30 - src: /rimg/himg/54/2a/c7/booking-1071277015-547417965-634125.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.309 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/54/2a/c7/booking-1071277015-547417965-634125.jpg
+2024-07-23 22:37:13.318 | INFO     | __main__:omprint:30 - src: /rimg/himg/35/f9/40/booking-1071277015-545370698-554397.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.319 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/35/f9/40/booking-1071277015-545370698-554397.jpg
+2024-07-23 22:37:13.329 | INFO     | __main__:omprint:30 - src: /rimg/himg/14/9f/99/booking-1071277015-545370674-509545.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.329 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/14/9f/99/booking-1071277015-545370674-509545.jpg
+2024-07-23 22:37:13.337 | INFO     | __main__:omprint:30 - src: /rimg/himg/f1/05/6a/booking-1071277015-545370633-421173.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.338 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/f1/05/6a/booking-1071277015-545370633-421173.jpg
+2024-07-23 22:37:13.345 | INFO     | __main__:omprint:30 - src: /rimg/himg/96/09/43/booking-1071277015-545370710-580872.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.346 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/96/09/43/booking-1071277015-545370710-580872.jpg
+2024-07-23 22:37:13.354 | INFO     | __main__:omprint:30 - src: /rimg/himg/2c/e9/ba/booking-1071277015-545370649-456691.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.355 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/2c/e9/ba/booking-1071277015-545370649-456691.jpg
+2024-07-23 22:37:13.363 | INFO     | __main__:omprint:30 - src: /rimg/himg/a7/05/f6/booking-1071277015-545370721-598532.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.364 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/a7/05/f6/booking-1071277015-545370721-598532.jpg
+2024-07-23 22:37:13.373 | INFO     | __main__:omprint:30 - src: /rimg/himg/d3/d0/7d/booking-1071277015-545370722-607616.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.373 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/d3/d0/7d/booking-1071277015-545370722-607616.jpg
+2024-07-23 22:37:13.381 | INFO     | __main__:omprint:30 - src: /rimg/himg/33/55/98/booking-1071277015-547417966-642889.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.381 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/33/55/98/booking-1071277015-547417966-642889.jpg
+2024-07-23 22:37:13.389 | INFO     | __main__:omprint:30 - src: /rimg/himg/86/45/b4/booking-1071277015-545370725-616387.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.390 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/86/45/b4/booking-1071277015-545370725-616387.jpg
+2024-07-23 22:37:13.398 | INFO     | __main__:omprint:30 - src: /rimg/himg/94/09/0c/booking-1071277015-545370630-412039.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.399 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/94/09/0c/booking-1071277015-545370630-412039.jpg
+2024-07-23 22:37:13.406 | INFO     | __main__:omprint:30 - src: /rimg/himg/10/7d/ba/booking-1071277015-545370604-361646.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.407 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/10/7d/ba/booking-1071277015-545370604-361646.jpg
+2024-07-23 22:37:13.416 | INFO     | __main__:omprint:30 - src: /rimg/himg/b8/e8/69/booking-1071277015-545370666-491899.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.416 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/b8/e8/69/booking-1071277015-545370666-491899.jpg
+2024-07-23 22:37:13.424 | INFO     | __main__:omprint:30 - src: /rimg/himg/cf/c1/94/booking-1071277015-545370718-589707.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.425 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/cf/c1/94/booking-1071277015-545370718-589707.jpg
+2024-07-23 22:37:13.437 | INFO     | __main__:omprint:30 - src: /rimg/himg/df/f7/4a/booking-1071277015-545370664-483086.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.437 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/df/f7/4a/booking-1071277015-545370664-483086.jpg
+2024-07-23 22:37:13.446 | INFO     | __main__:omprint:30 - src: /rimg/himg/5e/e6/cb/booking-1071277015-545370727-625107.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.447 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/5e/e6/cb/booking-1071277015-545370727-625107.jpg
+2024-07-23 22:37:13.456 | INFO     | __main__:omprint:30 - src: /rimg/himg/a3/d1/9a/booking-1071277015-547417975-651629.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.457 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/a3/d1/9a/booking-1071277015-547417975-651629.jpg
+2024-07-23 22:37:13.466 | INFO     | __main__:omprint:30 - src: /rimg/himg/59/00/ac/booking-1071277015-547417976-660530.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.466 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/59/00/ac/booking-1071277015-547417976-660530.jpg
+2024-07-23 22:37:13.474 | INFO     | __main__:omprint:30 - src: /rimg/himg/8c/11/1d/booking-1071277015-547417985-678885.jpg?width=836&height=607&crop=true
+2024-07-23 22:37:13.475 | INFO     | __main__:omprint:30 - full_url: https://www.kayak.com/rimg/himg/8c/11/1d/booking-1071277015-547417985-678885.jpg
+2024-07-23 22:37:14.326 | INFO     | __main__:omprint:30 - Descarga completada.
+2024-07-23 22:37:14.327 | INFO     | __main__:omprint:30 - ====================
+2024-07-23 22:37:14.327 | INFO     | __main__:omprint:30 - property_image_urls: ['https://www.kayak.com/rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg', 'https://www.kayak.com/rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg']
+2024-07-23 22:37:14.327 | INFO     | __main__:omprint:30 - ====================
+2024-07-23 22:37:18.178 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 22:37:18.179 | INFO     | __main__:omprint:30 - {'url': 'https://www.kayak.com/rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg', 'description': 'Bright blue skies frame a charming two-story house with a spacious deck, while a refreshing pool glistens in the foreground, inviting relaxation amidst the surrounding palm trees and outdoor seating area.'}
+2024-07-23 22:37:18.180 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 22:37:20.868 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 22:37:20.868 | INFO     | __main__:omprint:30 - {'url': 'https://www.kayak.com/rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg', 'description': 'Spacious outdoor area features a covered porch with a cozy swing adorned with plush cushions, while vibrant green artificial grass enhances the inviting atmosphere, complemented by nearby hammocks that promise relaxation under the gentle sunlight.'}
+2024-07-23 22:37:20.868 | INFO     | __main__:omprint:30 - --------------------------------------------
+2024-07-23 22:37:24.313 | INFO     | __main__:omprint:30 - selected_images: [{'url': 'https://www.kayak.com/rimg/himg/c3/98/12/booking-1071277015-545370611-374615.jpg', 'description': 'Welcome to The Real Bill McCoy House, where bright blue skies embrace a charming two-story retreat. Picture yourself unwinding on the spacious deck, with a refreshing pool glistening invitingly in the foreground. Surrounded by lush palm trees and a cozy outdoor seating area, this is the perfect oasis for relaxation and rejuvenation. Imagine sipping your morning coffee or enjoying an evening cocktail as you soak in the serene atmosphere.'}, {'url': 'https://www.kayak.com/rimg/himg/dc/ed/58/booking-1071277015-545370618-383830.jpg', 'description': "Step into the expansive outdoor area, where a covered porch awaits with a cozy swing adorned with plush cushions, inviting you to take a moment to unwind. The vibrant green artificial grass enhances the inviting atmosphere, while nearby hammocks promise lazy afternoons under the gentle sunlight. This is not just a house; it's a lifestyle. Experience the perfect blend of comfort and tranquility at The Real Bill McCoy House. Don’t miss out on this incredible opportunity—follow @LuxuryRoamers for more stunning properties like this!"}]
+2024-07-23 22:37:24.315 | INFO     | __main__:omprint:30 - ====================
+2024-07-23 22:37:24.315 | INFO     | __main__:omprint:30 - ====================
+2024-07-23 22:37:24.584 | INFO     | __main__:omprint:30 - ====================
+2024-07-23 22:37:24.585 | INFO     | __main__:omprint:30 - img_filename, audio_filename: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/images/image_0.jpg ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/audios/audio_0.mp3
+2024-07-23 22:37:24.586 | INFO     | __main__:omprint:30 - Ruta creada: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/images
+2024-07-23 22:37:24.959 | INFO     | __main__:omprint:30 - Ruta creada: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/audios
+2024-07-23 22:37:24.963 | INFO     | __main__:omprint:30 - get_polly_response: neural Joanna Welcome to The Real Bill McCoy House, where bright blue skies embrace a charming two-story retreat. Picture yourself unwinding on the spacious deck, with a refreshing pool glistening invitingly in the foreground. Surrounded by lush palm trees and a cozy outdoor seating area, this is the perfect oasis for relaxation and rejuvenation. Imagine sipping your morning coffee or enjoying an evening cocktail as you soak in the serene atmosphere. 100%
+2024-07-23 22:37:24.984 | INFO     | __main__:omprint:30 - {'Engine': 'neural', 'LanguageCode': 'en-US', 'VoiceId': 'Joanna', 'Gender': 'Female', 'TextType': 'ssml', 'Newscaster': 'news'}
+2024-07-23 22:37:25.469 | INFO     | __main__:omprint:30 - get_polly_response: <speak><prosody rate="100%"><amazon:domain name="news">Welcome to The Real Bill McCoy House, where bright blue skies embrace a charming two-story retreat. Picture yourself unwinding on the spacious deck, with a refreshing pool glistening invitingly in the foreground. Surrounded by lush palm trees and a cozy outdoor seating area, this is the perfect oasis for relaxation and rejuvenation. Imagine sipping your morning coffee or enjoying an evening cocktail as you soak in the serene atmosphere.</amazon:domain></prosody></speak> ssml Joanna en-US
+2024-07-23 22:37:26.579 | INFO     | __main__:omprint:30 - thumb_filename: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/thumbnail/43bb3069-4c73-4a2f-8c06-1c5f525b6415.jpg
+2024-07-23 22:37:26.581 | INFO     | __main__:omprint:30 - Ruta creada: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/thumbnail
+2024-07-23 22:37:26.581 | INFO     | __main__:omprint:30 - ==========================
+2024-07-23 22:37:26.582 | INFO     | __main__:omprint:30 - image_path: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/images/image_0.jpg
+2024-07-23 22:37:26.582 | INFO     | __main__:omprint:30 - ==========================
+2024-07-23 22:37:26.816 | INFO     | __main__:omprint:30 - img_filename, audio_filename: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/images/image_1.jpg ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/audios/audio_1.mp3
+2024-07-23 22:37:26.817 | INFO     | __main__:omprint:30 - La ruta ya existe: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/images
+2024-07-23 22:37:27.034 | INFO     | __main__:omprint:30 - La ruta ya existe: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/audios
+2024-07-23 22:37:27.035 | INFO     | __main__:omprint:30 - get_polly_response: neural Joanna Step into the expansive outdoor area, where a covered porch awaits with a cozy swing adorned with plush cushions, inviting you to take a moment to unwind. The vibrant green artificial grass enhances the inviting atmosphere, while nearby hammocks promise lazy afternoons under the gentle sunlight. This is not just a house; it's a lifestyle. Experience the perfect blend of comfort and tranquility at The Real Bill McCoy House. Don’t miss out on this incredible opportunity—follow @LuxuryRoamers for more stunning properties like this! 100%
+2024-07-23 22:37:27.035 | INFO     | __main__:omprint:30 - {'Engine': 'neural', 'LanguageCode': 'en-US', 'VoiceId': 'Joanna', 'Gender': 'Female', 'TextType': 'ssml', 'Newscaster': 'news'}
+2024-07-23 22:37:27.121 | INFO     | __main__:omprint:30 - get_polly_response: <speak><prosody rate="100%"><amazon:domain name="news">Step into the expansive outdoor area, where a covered porch awaits with a cozy swing adorned with plush cushions, inviting you to take a moment to unwind. The vibrant green artificial grass enhances the inviting atmosphere, while nearby hammocks promise lazy afternoons under the gentle sunlight. This is not just a house; it's a lifestyle. Experience the perfect blend of comfort and tranquility at The Real Bill McCoy House. Don’t miss out on this incredible opportunity—follow @LuxuryRoamers for more stunning properties like this!</amazon:domain></prosody></speak> ssml Joanna en-US
+2024-07-23 22:37:28.490 | INFO     | __main__:omprint:30 - ---------------------------------------------------
+2024-07-23 22:37:28.491 | INFO     | __main__:omprint:30 - num_elements, thumb_filename: 2 ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/thumbnail/43bb3069-4c73-4a2f-8c06-1c5f525b6415.jpg
+2024-07-23 22:37:28.491 | INFO     | __main__:omprint:30 - ---------------------------------------------------
+2024-07-23 22:37:28.491 | INFO     | __main__:omprint:30 - Ruta creada: ./public/43bb3069-4c73-4a2f-8c06-1c5f525b6415/videos
+2024-07-23 22:37:28.775 | INFO     | __main__:omprint:30 - Traceback (most recent call last):
+
+2024-07-23 22:37:28.776 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.777 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.777 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.777 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.777 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 591, in process_request
+    asyncio.run(main(url, language, voice, property_type, property_name, number_images))
+
+2024-07-23 22:37:28.777 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.778 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.778 | INFO     | __main__:omprint:30 -   File "/opt/miniconda3/envs/automation/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.778 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/main.py", line 554, in main
+    create_video_main(selected_images, uploaded_video, voice, download_path, uuid4, property_name)
+
+2024-07-23 22:37:28.778 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/creavideo.py", line 398, in create_video_main
+    create_video(num_elements, filename, download_path, property_name, thumb_filename)
+
+2024-07-23 22:37:28.778 | INFO     | __main__:omprint:30 -   File "/Users/omarmojica/Proyectos/i2vid/creavideo.py", line 284, in create_video
+    img_clip2 = img_clip2.resize((1080, int(1080 * img_clip2.height / img_clip2.width)), Image.Resampling.LANCZOS)
+                                                   ^^^^^^^^^^^^^^^^
+
+2024-07-23 22:37:28.779 | INFO     | __main__:omprint:30 - AttributeError: 'ImageClip' object has no attribute 'height'
+

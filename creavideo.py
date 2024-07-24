@@ -219,7 +219,7 @@ def process_images_and_audios(data, voz, download_path, uuid4):
         if (idx == 0):
             thumb_filename = f"{download_path}/thumbnail/{uuid4}.jpg"
             print("thumb_filename:", thumb_filename)
-            generate_thumbnail(img_filename, "LuxuryRoamersHDTransparente.png", thumb_filename)
+            generate_thumbnail(img_filename, "./images/LuxuryRoamersHDTransparente.png", thumb_filename)
 
         cantidad = cantidad + 1
 
@@ -280,7 +280,9 @@ def create_video(num_elements, output_filename, download_path, property_name, th
         img_clip1 = ImageClip(f"{download_path}/images/image_{i}.jpg").set_duration(combined_duration).resize(width=1080)
         img_clip2 = ImageClip(f"{download_path}/images/image_{i + 1}.jpg").set_duration(combined_duration) if audio_clip2 else None
         if img_clip2:
-            img_clip2 = img_clip2.resize(width=1080)
+            print("img_clip2:", img_clip2)
+            # img_clip2 = img_clip2.resize(width=1080)
+            img_clip2 = img_clip2.resize((1080, int(1080 * img_clip2.h / img_clip2.w)), Image.Resampling.LANCZOS)
 
         # Posicionar las imágenes
         img_clip1 = zoom_in_effect(img_clip1).set_position(("center", "top"))
@@ -302,7 +304,7 @@ def create_video(num_elements, output_filename, download_path, property_name, th
     # final_clip = concatenate_videoclips(clips, method="compose").resize(width=720, height=1280)
     
     # Cargar la imagen centralizada y establecer la duración total del video
-    centered_img_clip = ImageClip("LuxuryRoamersHDTransparente.png").set_duration(final_clip.duration)
+    centered_img_clip = ImageClip("./images/LuxuryRoamersHDTransparente.png").set_duration(final_clip.duration)
     centered_img_clip = centered_img_clip.resize(width=final_clip.w * 0.85).set_position("center")
     
     # Superponer la imagen sobre el video final
