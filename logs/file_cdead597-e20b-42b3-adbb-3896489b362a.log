@@ -109,3 +109,20 @@
 2024-07-23 23:09:57.653 | INFO     | __main__:omprint:30 - ---------------------------------------------------
 2024-07-23 23:09:57.653 | INFO     | __main__:omprint:30 - Ruta creada: ./public/cdead597-e20b-42b3-adbb-3896489b362a/videos
 2024-07-23 23:09:58.020 | INFO     | __main__:omprint:30 - img_clip2: <moviepy.video.VideoClip.ImageClip object at 0x10d605f10>
+2024-07-23 23:20:58.803 | INFO     | __main__:omprint:30 - video_to_upload: https://llfgcl66-8996.use2.devtunnels.ms/cdead597-e20b-42b3-adbb-3896489b362a/videos/cdead597-e20b-42b3-adbb-3896489b362a.mp4
+2024-07-23 23:20:58.805 | INFO     | __main__:omprint:30 - El script tomó 716.88 segundos en ejecutarse.
+2024-07-23 23:21:01.578 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:21:13.656 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:21:24.107 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:21:34.403 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:21:44.959 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:21:55.268 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:22:05.564 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:22:15.878 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:22:26.199 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:22:36.503 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'IN_PROGRESS', 'status': 'In Progress: Media is still being processed.', 'id': '18036979516999555'}
+2024-07-23 23:22:46.970 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207026', 'id': '18036979516999555'}
+2024-07-23 23:22:57.426 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207026', 'id': '18036979516999555'}
+2024-07-23 23:23:07.877 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'ERROR', 'status': 'Error: Media upload has failed with error code 2207026', 'id': '18036979516999555'}
+2024-07-23 23:23:18.214 | INFO     | __main__:omprint:30 - Estado del video: {'status_code': 'FINISHED', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'id': '18036979516999555'}
+2024-07-23 23:23:36.172 | INFO     | __main__:omprint:30 - {'success': "Video publicado exitosamente en Instagram: {'id': '18035983735875503'}"}

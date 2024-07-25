@@ -14,7 +14,8 @@ import threading
 from flask import Flask, request, jsonify, send_from_directory, render_template_string
 from loguru import logger
 from PIL import Image
-from datetime import datetime
+from datetime import datetime, timezone
+from tinydb import TinyDB, Query
 
 try:
     from dotenv import load_dotenv, find_dotenv
@@ -32,11 +33,7 @@ def omprint(*args, **kwargs):
 
 builtins.print = omprint
 
-uuid4 = uuid.uuid4()
-
 PUBLIC_FOLDER = 'public'
-
-logger.add(f"./logs/file_{uuid4}.log", rotation="1 day")
 
 PORT = os.environ.get("PORT", "")
 
@@ -466,7 +463,7 @@ def run_http_server(port, directory):
     httpd.serve_forever()
 
 
-async def main(url, language, voice, property_type, property_name_param, number_images):
+async def main(uuid4, url, language, voice, property_type, property_name_param, number_images):
     # Registrar el tiempo de inicio
     start_time = time.time()
     
@@ -479,8 +476,6 @@ async def main(url, language, voice, property_type, property_name_param, number_
     # url = 'https://www.es.kayak.com/hotels/Villa-Gordal,Enormous-Villa-in-Las-Vegas-with-39-Sleeps,Las-Vegas-p61746-h3989982-details/2024-07-26/2024-07-31/2adults?psid=mRCEN4ta-l&pm=daybase'
     
     download_path = f'{directory}/{uuid4}'
-    
-    server_url = f"https://llfgcl66-{PORT}.use2.devtunnels.ms"
 
     # Llamar a la función para borrar el contenido de la carpeta
     clear_directory(download_path)
@@ -555,6 +550,7 @@ async def main(url, language, voice, property_type, property_name_param, number_
 
     # send_vehicle_data_to_instagram(ctx)
     
+    server_url = f"https://llfgcl66-{PORT}.use2.devtunnels.ms"
     video_to_upload = f'{server_url}/{uuid4}/videos/{uuid4}.mp4'
     cover_url = f'{server_url}/{uuid4}/thumbnail/{uuid4}.jpg'
     
@@ -575,6 +571,82 @@ async def main(url, language, voice, property_type, property_name_param, number_
 
 app = Flask(__name__, static_folder=PUBLIC_FOLDER)
 
+# Initialize TinyDB
+db = TinyDB('luxuryroamers.json')
+procesos_table = db.table('procesos')
+
+process_lock = threading.Lock()
+
+def save_to_db(process_id, url, language, voice, property_type, property_name, number_images):
+    timestamp = datetime.now(timezone.utc).isoformat()
+    proceso = {
+        "uuid": process_id,
+        "url": url,
+        "language": language,
+        "voice": voice,
+        "property_type": property_type,
+        "property_name": property_name,
+        "number_images": number_images,
+        "url_video": "",
+        "fecha_creacion": timestamp,
+        "fecha_modificacion": timestamp,
+        "estado": "pendiente"
+    }
+    procesos_table.insert(proceso)
+    return process_id
+
+
+def update_process_status(process_id, status):
+    url_video = f'https://llfgcl66-{PORT}.use2.devtunnels.ms/{process_id}/videos/{process_id}.mp4'
+    Process = Query()
+    procesos_table.update(
+        {
+            "estado": status, 
+            "fecha_modificacion": datetime.now(timezone.utc).isoformat(),
+            "url_video": url_video
+        }, Process.uuid == process_id)
+
+
+def get_pending_processes():
+    return procesos_table.search(Query().estado == 'pendiente')
+
+
+def process_pending_tasks():
+    if not process_lock.acquire(blocking=False):
+        print("Ya hay un proceso en ejecución.")
+        return
+    
+    try:
+        while True:
+            pending_processes = get_pending_processes()
+            print("pending_processes:", pending_processes)
+            if not pending_processes:
+                print("No hay más procesos pendientes.")
+                break
+
+            for process in sorted(pending_processes, key=lambda x: x['fecha_creacion']):
+                process_id = process['uuid']
+                print(f"Procesando el proceso ID: {process_id}")
+                try:
+                    asyncio.run(main(
+                        process['uuid'],
+                        process['url'],
+                        process['language'],
+                        process['voice'],
+                        process['property_type'],
+                        process['property_name'],
+                        process['number_images']
+                    ))
+                    update_process_status(process_id, 'completado')
+                except Exception as e:
+                    update_process_status(process_id, f'error: {e}')
+                    print(f"Error al procesar el proceso ID: {process_id}, error: {e}")
+                    
+            time.sleep(5)  # Espera antes de verificar nuevamente
+    finally:
+        process_lock.release()
+
+
 @app.route('/process', methods=['POST'])
 def process_request():
     data = request.json
@@ -587,10 +659,17 @@ def process_request():
 
     if not url or not property_type:
         return jsonify({"error": "Missing required parameters"}), 400
-
-    asyncio.run(main(url, language, voice, property_type, property_name, number_images))
     
-    return jsonify({"message": "Proceso completado exitosamente."}), 200
+    process_id = str(uuid.uuid4())
+    
+    logger.add(f"./logs/file_{process_id}.log", rotation="1 day")
+
+    save_to_db(process_id, url, language, voice, property_type, property_name, number_images)
+
+    # Trigger the process_pending_tasks function
+    threading.Thread(target=process_pending_tasks).start()
+    
+    return jsonify({"message": "Proceso registrado exitosamente.", "process_id": process_id}), 200
 
 
 @app.route('/<path:path>', methods=['GET'])
@@ -612,25 +691,34 @@ def serve_file_or_directory(path):
 def list_videos():
     video_files = []
 
-    for root, dirs, files in os.walk(PUBLIC_FOLDER):
-        for dir_name in dirs:
-            video_path = os.path.join(root, dir_name, 'videos')
-            if os.path.exists(video_path):
-                for file_name in os.listdir(video_path):
-                    if file_name.endswith('.mp4'):
-                        file_path = os.path.join(video_path, file_name)
-                        modified_time = os.path.getmtime(file_path)
-                        video_files.append({
-                            "filename": file_path,
-                            "modified": datetime.fromtimestamp(modified_time).strftime('%Y-%m-%d %H:%M:%S')
-                        })
+    # Obtener todos los registros de la base de datos
+    all_processes = procesos_table.all()
+
+    # Filtrar solo los registros que tienen un url_video y estado 'completado'
+    for process in all_processes:
+        if 'url_video' in process and (process['estado'] == 'completado' or process['estado'] == 'pendiente'):
+            video_files.append({
+                "process_id": process['uuid'],
+                "filename": process['url_video'],
+                "modified": process['fecha_modificacion'],
+                "status": process['estado']
+            })
 
     # Ordenar los archivos por tiempo de modificación en orden descendente
     video_files.sort(key=lambda x: x["modified"], reverse=True)
+    
     return jsonify(video_files)
+
+
+def start_process_monitor():
+    while True:
+        process_pending_tasks()
+        time.sleep(60)  # Esperar 1 minuto antes de verificar nuevamente
+
 
 if __name__ == '__main__':
     print(f"--------------------------------------------")
     print(f"Servidor Flask corriendo en el puerto {PORT}")
     print(f"--------------------------------------------")
+    threading.Thread(target=start_process_monitor).start()  # Iniciar el monitor de procesos en segundo plano
     app.run(port=PORT)
