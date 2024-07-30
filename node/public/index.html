@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noticias Mezcladas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .card { margin: 15px; }
+    .card-img-top { height: 180px; object-fit: cover; }
+    .container { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Portal de Noticias Mezcladas desde RSS</h1>
+
+    <!-- Filtros de búsqueda -->
+    <div class="row">
+      <div class="col-md-6">
+        <input type="text" id="search-query" class="form-control" placeholder="Buscar noticias...">
+      </div>
+      <div class="col-md-6">
+        <select id="source-filter" class="form-control">
+          <option value="all">Todas las fuentes</option>
+          <option value="Diario Libre">Diario Libre</option>
+          <option value="El Nuevo Diario">El Nuevo Diario</option>
+          <option value="El Caribe">El Caribe</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="news-container" class="row mt-3">
+      <!-- Las noticias se cargarán aquí -->
+    </div>
+  </div>
+
+  <script>
+    $(document).ready(function() {
+      function loadNews(query, source) {
+        $.getJSON('/api/search', { query, source }, function(data) {
+          const container = $('#news-container');
+          container.empty();
+          data.forEach(news => {
+            container.append(`
+              <div class="col-md-4">
+                <div class="card">
+                  ${news.image ? `<img src="${news.image}" class="card-img-top" alt="${news.title}">` : ''}
+                  <div class="card-body">
+                    <h5 class="card-title">${news.title}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">${news.source}</h6>
+                    <p class="card-text">${news.description}</p>
+                    <a href="${news.link}" class="btn btn-primary" target="_blank">Leer más</a>
+                  </div>
+                  <div class="card-footer text-muted">
+                    ${new Date(news.pubDate).toLocaleDateString()}
+                  </div>
+                </div>
+              </div>
+            `);
+          });
+        });
+      }
+
+      // Cargar noticias iniciales
+      loadNews('', 'all');
+
+      // Manejar eventos de búsqueda
+      $('#search-query, #source-filter').on('input change', function() {
+        const query = $('#search-query').val();
+        const source = $('#source-filter').val();
+        loadNews(query, source);
+      });
+    });
+  </script>
+</body>
+</html>
