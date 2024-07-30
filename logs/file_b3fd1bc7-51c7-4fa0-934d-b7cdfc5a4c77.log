@@ -1,0 +1,174 @@
+2024-07-29 23:49:03.445 | INFO     | __main__:omprint:31 - pending_processes: [{'uuid': 'b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77', 'url': 'https://www.es.kayak.com/hotels/Hotel-Metropole,Monte-Carlo,Monaco-p2598516-h83084-details/2024-08-09/2024-08-11/2adults?psid=msCEEZ4ufc&pm=daybase#overview', 'language': 'English', 'voice': 'Joanna', 'property_type': 'Hotel', 'property_name': '', 'number_images': 2, 'url_video': '', 'fecha_creacion': '2024-07-30T03:49:03.442931+00:00', 'fecha_modificacion': '2024-07-30T03:49:03.442931+00:00', 'estado': 'pendiente'}]
+2024-07-29 23:49:03.446 | INFO     | __main__:omprint:31 - Procesando el proceso ID: b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77
+2024-07-29 23:49:27.243 | INFO     | __main__:omprint:31 - Ya hay un proceso en ejecución.
+2024-07-29 23:49:48.020 | INFO     | __main__:omprint:31 - carousel_div: JSHandle@node
+2024-07-29 23:49:48.131 | INFO     | __main__:omprint:31 - img_elements: [<JSHandle preview=JSHandle@<img class="f800-image" alt="vista Piscina de Hotel Metropole, Monte Carlo" aria-describedby="photo-description-b912240b60e9d8" src="/rimg/himg/79/33/da/leonardo-2680682-89_O-328074.jpg?width=836&height=607&crop=true"/>>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>, <JSHandle preview=JSHandle@node>]
+2024-07-29 23:49:48.167 | INFO     | __main__:omprint:31 - src: /rimg/himg/79/33/da/leonardo-2680682-89_O-328074.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.168 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/79/33/da/leonardo-2680682-89_O-328074.jpg
+2024-07-29 23:49:48.175 | INFO     | __main__:omprint:31 - src: /rimg/himg/e7/b0/d2/leonardo-2680682-Terrasse_nuit_SCO_Hotel_Metropole_MC_W.Pryce_O-492714.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.175 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/e7/b0/d2/leonardo-2680682-Terrasse_nuit_SCO_Hotel_Metropole_MC_W.Pryce_O-492714.jpg
+2024-07-29 23:49:48.186 | INFO     | __main__:omprint:31 - src: /rimg/himg/e5/40/37/leonardo-2680682-Odyssey_night_Hotel_Metropole_MC_L.Galaup_(3)_O-733383.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.186 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/e5/40/37/leonardo-2680682-Odyssey_night_Hotel_Metropole_MC_L.Galaup_(3)_O-733383.jpg
+2024-07-29 23:49:48.195 | INFO     | __main__:omprint:31 - src: /rimg/himg/12/03/20/leonardo-2680682-Odyssey-hiver-soir_Hotel-Metropole-MC_W.Pryce_O-057986.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.195 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/12/03/20/leonardo-2680682-Odyssey-hiver-soir_Hotel-Metropole-MC_W.Pryce_O-057986.jpg
+2024-07-29 23:49:48.209 | INFO     | __main__:omprint:31 - src: /rimg/himg/ab/ef/5e/leonardo-83084-147026745-551913.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.210 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/ab/ef/5e/leonardo-83084-147026745-551913.jpg
+2024-07-29 23:49:48.219 | INFO     | __main__:omprint:31 - src: /rimg/himg/a0/92/ca/leonardo-83084-91239737-147747.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.219 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/a0/92/ca/leonardo-83084-91239737-147747.jpg
+2024-07-29 23:49:48.229 | INFO     | __main__:omprint:31 - src: /rimg/himg/57/c0/50/expedia_group-83084-0d5ddf5b-384932.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.229 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/57/c0/50/expedia_group-83084-0d5ddf5b-384932.jpg
+2024-07-29 23:49:48.238 | INFO     | __main__:omprint:31 - src: /rimg/himg/95/5e/54/leonardo-1103725-51_O-086348.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.239 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/95/5e/54/leonardo-1103725-51_O-086348.jpg
+2024-07-29 23:49:48.249 | INFO     | __main__:omprint:31 - src: /rimg/himg/56/05/c2/leonardo-83084-161556627-895335.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.264 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/56/05/c2/leonardo-83084-161556627-895335.jpg
+2024-07-29 23:49:48.274 | INFO     | __main__:omprint:31 - src: /rimg/himg/28/65/8d/leonardo-2680682-Suite_Carr__d_Or_O-506862.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.284 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/28/65/8d/leonardo-2680682-Suite_Carr__d_Or_O-506862.jpg
+2024-07-29 23:49:48.292 | INFO     | __main__:omprint:31 - src: /rimg/himg/9e/6c/f4/leonardo-83084-87212436-137955.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.293 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/9e/6c/f4/leonardo-83084-87212436-137955.jpg
+2024-07-29 23:49:48.303 | INFO     | __main__:omprint:31 - src: /rimg/himg/1a/2a/11/leonardo-83084-87212544-087092.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.303 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/1a/2a/11/leonardo-83084-87212544-087092.jpg
+2024-07-29 23:49:48.312 | INFO     | __main__:omprint:31 - src: /rimg/himg/e6/9f/c3/expedia_group-83084-43019399-471109.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.313 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/e6/9f/c3/expedia_group-83084-43019399-471109.jpg
+2024-07-29 23:49:48.323 | INFO     | __main__:omprint:31 - src: /rimg/himg/f5/d3/ec/leonardo-83084-161556433-805430.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.323 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/f5/d3/ec/leonardo-83084-161556433-805430.jpg
+2024-07-29 23:49:48.331 | INFO     | __main__:omprint:31 - src: /rimg/himg/11/05/72/leonardo-2680682-Salle_de_bain_SCO_Hotel_Metropole_MC_W.Pryce_O-190691.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.332 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/11/05/72/leonardo-2680682-Salle_de_bain_SCO_Hotel_Metropole_MC_W.Pryce_O-190691.jpg
+2024-07-29 23:49:48.341 | INFO     | __main__:omprint:31 - src: /rimg/himg/8f/20/74/sembo-83084-3ec61a-191355.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.356 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/8f/20/74/sembo-83084-3ec61a-191355.jpg
+2024-07-29 23:49:48.365 | INFO     | __main__:omprint:31 - src: /rimg/himg/86/7a/0e/leonardo-83084-176284057-763163.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.366 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/86/7a/0e/leonardo-83084-176284057-763163.jpg
+2024-07-29 23:49:48.375 | INFO     | __main__:omprint:31 - src: /rimg/himg/13/17/07/leonardo-83084-161556505-845060.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.394 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/13/17/07/leonardo-83084-161556505-845060.jpg
+2024-07-29 23:49:48.402 | INFO     | __main__:omprint:31 - src: /rimg/himg/96/2a/0b/leonardo-1103725-Odyssey_hiver_Hotel_Metrople_MC_W.Pryce_O-754538.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.403 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/96/2a/0b/leonardo-1103725-Odyssey_hiver_Hotel_Metrople_MC_W.Pryce_O-754538.jpg
+2024-07-29 23:49:48.411 | INFO     | __main__:omprint:31 - src: /rimg/himg/1f/84/d7/leonardo-1103725-16_O-447969.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.411 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/1f/84/d7/leonardo-1103725-16_O-447969.jpg
+2024-07-29 23:49:48.421 | INFO     | __main__:omprint:31 - src: /rimg/himg/a5/9b/84/leonardo-83084-87211433-104727.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.439 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/a5/9b/84/leonardo-83084-87211433-104727.jpg
+2024-07-29 23:49:48.447 | INFO     | __main__:omprint:31 - src: /rimg/himg/98/4e/3b/sembo-83084-3d0d31-428065.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.458 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/98/4e/3b/sembo-83084-3d0d31-428065.jpg
+2024-07-29 23:49:48.468 | INFO     | __main__:omprint:31 - src: /rimg/himg/98/aa/e7/leonardo-83084-161556457-823728.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.468 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/98/aa/e7/leonardo-83084-161556457-823728.jpg
+2024-07-29 23:49:48.476 | INFO     | __main__:omprint:31 - src: /rimg/himg/52/af/5c/leonardo-2680682-100_O-536723.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.476 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/52/af/5c/leonardo-2680682-100_O-536723.jpg
+2024-07-29 23:49:48.486 | INFO     | __main__:omprint:31 - src: /rimg/himg/96/b0/e2/leonardo-83084-87212492-095868.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.517 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/96/b0/e2/leonardo-83084-87212492-095868.jpg
+2024-07-29 23:49:48.524 | INFO     | __main__:omprint:31 - src: /rimg/himg/7c/9f/ae/leonardo-2680682-Junior_Suite_Prestige_2_Hotel_Metropole_MC_W.Pryce_O-460352.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.525 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/7c/9f/ae/leonardo-2680682-Junior_Suite_Prestige_2_Hotel_Metropole_MC_W.Pryce_O-460352.jpg
+2024-07-29 23:49:48.533 | INFO     | __main__:omprint:31 - src: /rimg/himg/b4/e2/d8/leonardo-2680682-Salon_des_Princes_O-325659.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.534 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/b4/e2/d8/leonardo-2680682-Salon_des_Princes_O-325659.jpg
+2024-07-29 23:49:48.541 | INFO     | __main__:omprint:31 - src: /rimg/himg/8f/4a/3c/leonardo-83084-91239805-067732.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.541 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/8f/4a/3c/leonardo-83084-91239805-067732.jpg
+2024-07-29 23:49:48.550 | INFO     | __main__:omprint:31 - src: /rimg/himg/5c/24/35/leonardo-2680682-50_O-329058.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.551 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/5c/24/35/leonardo-2680682-50_O-329058.jpg
+2024-07-29 23:49:48.558 | INFO     | __main__:omprint:31 - src: /rimg/himg/5f/e5/f6/leonardo-2680682-Suite_Carr__d_Or_Hotel_Metropole_MC_StudioPhenix_(2)_O-476645.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.559 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/5f/e5/f6/leonardo-2680682-Suite_Carr__d_Or_Hotel_Metropole_MC_StudioPhenix_(2)_O-476645.jpg
+2024-07-29 23:49:48.567 | INFO     | __main__:omprint:31 - src: /rimg/himg/08/a0/0a/leonardo-2680682-27_O-511123.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.568 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/08/a0/0a/leonardo-2680682-27_O-511123.jpg
+2024-07-29 23:49:48.575 | INFO     | __main__:omprint:31 - src: /rimg/himg/8e/1d/54/leonardo-83084-176277797-743718.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.576 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/8e/1d/54/leonardo-83084-176277797-743718.jpg
+2024-07-29 23:49:48.586 | INFO     | __main__:omprint:31 - src: /rimg/himg/62/8a/61/leonardo-83084-87211885-078113.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.586 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/62/8a/61/leonardo-83084-87211885-078113.jpg
+2024-07-29 23:49:48.594 | INFO     | __main__:omprint:31 - src: /rimg/himg/de/fb/d0/leonardo-2680682-04_O-132103.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.595 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/de/fb/d0/leonardo-2680682-04_O-132103.jpg
+2024-07-29 23:49:48.603 | INFO     | __main__:omprint:31 - src: /rimg/himg/c8/e7/64/leonardo-2680682-99_O-967031.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.604 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/c8/e7/64/leonardo-2680682-99_O-967031.jpg
+2024-07-29 23:49:48.612 | INFO     | __main__:omprint:31 - src: /rimg/himg/c8/9a/94/leonardo-83084-149060667-850878.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.612 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/c8/9a/94/leonardo-83084-149060667-850878.jpg
+2024-07-29 23:49:48.620 | INFO     | __main__:omprint:31 - src: /rimg/himg/89/88/3c/expedia_group-83084-118477971-612161.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.621 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/89/88/3c/expedia_group-83084-118477971-612161.jpg
+2024-07-29 23:49:48.628 | INFO     | __main__:omprint:31 - src: /rimg/himg/a7/35/43/sembo-83084-89a459-537167.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.628 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/a7/35/43/sembo-83084-89a459-537167.jpg
+2024-07-29 23:49:48.638 | INFO     | __main__:omprint:31 - src: /rimg/himg/52/82/a5/leonardo-2680682-60_O-830190.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.638 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/52/82/a5/leonardo-2680682-60_O-830190.jpg
+2024-07-29 23:49:48.647 | INFO     | __main__:omprint:31 - src: /rimg/himg/27/39/9d/leonardo-83084-161556481-836878.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.647 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/27/39/9d/leonardo-83084-161556481-836878.jpg
+2024-07-29 23:49:48.656 | INFO     | __main__:omprint:31 - src: /rimg/himg/e7/96/af/sembo-83084-40d7a2-273140.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.656 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/e7/96/af/sembo-83084-40d7a2-273140.jpg
+2024-07-29 23:49:48.663 | INFO     | __main__:omprint:31 - src: /rimg/himg/2a/00/c4/leonardo-2680682-Suite_Carr__d_Or_Hotel_Metropole_MC_StudioPhenix_(4)_O-624322.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.664 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/2a/00/c4/leonardo-2680682-Suite_Carr__d_Or_Hotel_Metropole_MC_StudioPhenix_(4)_O-624322.jpg
+2024-07-29 23:49:48.673 | INFO     | __main__:omprint:31 - src: /rimg/himg/64/ed/42/leonardo-1103725-23_O-616257.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.673 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/64/ed/42/leonardo-1103725-23_O-616257.jpg
+2024-07-29 23:49:48.680 | INFO     | __main__:omprint:31 - src: /rimg/himg/ab/1f/a9/leonardo-1103725-09_O-545121.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.681 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/ab/1f/a9/leonardo-1103725-09_O-545121.jpg
+2024-07-29 23:49:48.690 | INFO     | __main__:omprint:31 - src: /rimg/himg/6d/74/be/leonardo-2680682-46_O-457080.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.691 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/6d/74/be/leonardo-2680682-46_O-457080.jpg
+2024-07-29 23:49:48.701 | INFO     | __main__:omprint:31 - src: /rimg/himg/26/df/7a/leonardo-83084-161556577-880069.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.701 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/26/df/7a/leonardo-83084-161556577-880069.jpg
+2024-07-29 23:49:48.708 | INFO     | __main__:omprint:31 - src: /rimg/himg/11/75/b8/leonardo-83084-130655797-126559.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.709 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/11/75/b8/leonardo-83084-130655797-126559.jpg
+2024-07-29 23:49:48.721 | INFO     | __main__:omprint:31 - src: /rimg/himg/b5/16/cd/leonardo-2680682-Odyssey_Hotel_Metropole_MC_StudioPhenix_(18)_O-234069.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.721 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/b5/16/cd/leonardo-2680682-Odyssey_Hotel_Metropole_MC_StudioPhenix_(18)_O-234069.jpg
+2024-07-29 23:49:48.729 | INFO     | __main__:omprint:31 - src: /rimg/himg/0e/4c/4e/leonardo-83084-147026630-432176.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.730 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/0e/4c/4e/leonardo-83084-147026630-432176.jpg
+2024-07-29 23:49:48.738 | INFO     | __main__:omprint:31 - src: /rimg/himg/a2/03/45/leonardo-1103725-19_O-039229.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.739 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/a2/03/45/leonardo-1103725-19_O-039229.jpg
+2024-07-29 23:49:48.746 | INFO     | __main__:omprint:31 - src: /rimg/himg/76/60/ac/sembo-83084-99d8c8-906254.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.746 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/76/60/ac/sembo-83084-99d8c8-906254.jpg
+2024-07-29 23:49:48.754 | INFO     | __main__:omprint:31 - src: /rimg/himg/6c/12/73/leonardo-2680682-54_O-443265.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.755 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/6c/12/73/leonardo-2680682-54_O-443265.jpg
+2024-07-29 23:49:48.762 | INFO     | __main__:omprint:31 - src: /rimg/himg/38/e3/4e/leonardo-2680682-Suite_Carr__d_Or_Hotel_Metropole_MC_StudioPhenix_(3)_O-061824.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.762 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/38/e3/4e/leonardo-2680682-Suite_Carr__d_Or_Hotel_Metropole_MC_StudioPhenix_(3)_O-061824.jpg
+2024-07-29 23:49:48.771 | INFO     | __main__:omprint:31 - src: /rimg/himg/bd/2d/e4/leonardo-2680682-64_O-899391.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.772 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/bd/2d/e4/leonardo-2680682-64_O-899391.jpg
+2024-07-29 23:49:48.783 | INFO     | __main__:omprint:31 - src: /rimg/himg/36/0f/e9/leonardo-83084-87211420-113844.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.784 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/36/0f/e9/leonardo-83084-87211420-113844.jpg
+2024-07-29 23:49:48.792 | INFO     | __main__:omprint:31 - src: /rimg/himg/bf/c6/5d/expedia_group-83084-b61c88-974133.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.792 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/bf/c6/5d/expedia_group-83084-b61c88-974133.jpg
+2024-07-29 23:49:48.801 | INFO     | __main__:omprint:31 - src: /rimg/himg/41/92/77/leonardo-2680682-Galerie_des_portraits_HotelMetropol_O-327210.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.802 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/41/92/77/leonardo-2680682-Galerie_des_portraits_HotelMetropol_O-327210.jpg
+2024-07-29 23:49:48.809 | INFO     | __main__:omprint:31 - src: /rimg/himg/2c/78/c7/leonardo-83084-147026658-477181.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.810 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/2c/78/c7/leonardo-83084-147026658-477181.jpg
+2024-07-29 23:49:48.818 | INFO     | __main__:omprint:31 - src: /rimg/himg/e5/22/52/leonardo-83084-161556599-887707.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.819 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/e5/22/52/leonardo-83084-161556599-887707.jpg
+2024-07-29 23:49:48.826 | INFO     | __main__:omprint:31 - src: /rimg/himg/da/4c/ae/leonardo-2680682-86_O-224245.jpg?width=836&height=607&crop=true
+2024-07-29 23:49:48.827 | INFO     | __main__:omprint:31 - full_url: https://www.kayak.com/rimg/himg/da/4c/ae/leonardo-2680682-86_O-224245.jpg
+2024-07-29 23:49:49.812 | INFO     | __main__:omprint:31 - Descarga completada.
+2024-07-29 23:49:49.813 | INFO     | __main__:omprint:31 - ====================
+2024-07-29 23:49:49.813 | INFO     | __main__:omprint:31 - property_image_urls: ['https://www.kayak.com/rimg/himg/79/33/da/leonardo-2680682-89_O-328074.jpg', 'https://www.kayak.com/rimg/himg/e7/b0/d2/leonardo-2680682-Terrasse_nuit_SCO_Hotel_Metropole_MC_W.Pryce_O-492714.jpg']
+2024-07-29 23:49:49.814 | INFO     | __main__:omprint:31 - ====================
+2024-07-29 23:49:57.566 | INFO     | __main__:omprint:31 - --------------------------------------------
+2024-07-29 23:49:57.568 | INFO     | __main__:omprint:31 - {'url': 'https://www.kayak.com/rimg/himg/79/33/da/leonardo-2680682-89_O-328074.jpg', 'description': 'Lush greenery surrounds a serene swimming pool, where elegant loungers invite relaxation under the bright blue sky, while a grand building with intricate architecture looms in the background, enhancing the luxurious atmosphere of this tranquil retreat.'}
+2024-07-29 23:49:57.569 | INFO     | __main__:omprint:31 - --------------------------------------------
+2024-07-29 23:50:02.469 | INFO     | __main__:omprint:31 - --------------------------------------------
+2024-07-29 23:50:02.470 | INFO     | __main__:omprint:31 - {'url': 'https://www.kayak.com/rimg/himg/e7/b0/d2/leonardo-2680682-Terrasse_nuit_SCO_Hotel_Metropole_MC_W.Pryce_O-492714.jpg', 'description': 'Elegant outdoor seating adorned with striped cushions invites relaxation, while a beautifully set dining table hints at an intimate gathering, all under a serene twilight sky that casts a soft glow over the stunning coastal view.'}
+2024-07-29 23:50:02.470 | INFO     | __main__:omprint:31 - --------------------------------------------
+2024-07-29 23:50:05.753 | INFO     | __main__:omprint:31 - selected_images: [{'url': 'https://www.kayak.com/rimg/himg/79/33/da/leonardo-2680682-89_O-328074.jpg', 'description': "Welcome to the exquisite Hotel Metropole, Monte Carlo, where luxury meets tranquility. Picture yourself lounging by our serene swimming pool, surrounded by lush greenery and the stunning architecture of our grand hotel. This is not just a getaway; it's an invitation to unwind in a paradise that promises relaxation under the bright blue sky. Experience the elegance and comfort that awaits you at every corner of our property."}, {'url': 'https://www.kayak.com/rimg/himg/e7/b0/d2/leonardo-2680682-Terrasse_nuit_SCO_Hotel_Metropole_MC_W.Pryce_O-492714.jpg', 'description': 'As the sun sets, the magic of Hotel Metropole truly comes alive. Imagine dining al fresco on our beautifully set terrace, adorned with plush striped cushions and a breathtaking coastal view. The soft glow of twilight creates an intimate atmosphere, perfect for gatherings with loved ones or a romantic evening. This is where unforgettable memories are made, and every moment is cherished. Don’t miss out on the luxury experience that awaits you—follow @LuxuryRoamers for more stunning content like this!'}]
+2024-07-29 23:50:05.754 | INFO     | __main__:omprint:31 - ====================
+2024-07-29 23:50:05.755 | INFO     | __main__:omprint:31 - ====================
+2024-07-29 23:50:06.002 | INFO     | __main__:omprint:31 - ====================
+2024-07-29 23:50:06.003 | INFO     | __main__:omprint:31 - img_filename, audio_filename: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/images/image_0.jpg ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/audios/audio_0.mp3
+2024-07-29 23:50:06.004 | INFO     | __main__:omprint:31 - Ruta creada: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/images
+2024-07-29 23:50:07.381 | INFO     | __main__:omprint:31 - Ruta creada: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/audios
+2024-07-29 23:50:07.382 | INFO     | __main__:omprint:31 - get_polly_response: neural Joanna Welcome to the exquisite Hotel Metropole, Monte Carlo, where luxury meets tranquility. Picture yourself lounging by our serene swimming pool, surrounded by lush greenery and the stunning architecture of our grand hotel. This is not just a getaway; it's an invitation to unwind in a paradise that promises relaxation under the bright blue sky. Experience the elegance and comfort that awaits you at every corner of our property. 100%
+2024-07-29 23:50:07.382 | INFO     | __main__:omprint:31 - {'Engine': 'neural', 'LanguageCode': 'en-US', 'VoiceId': 'Joanna', 'Gender': 'Female', 'TextType': 'ssml', 'Newscaster': 'news'}
+2024-07-29 23:50:07.753 | INFO     | __main__:omprint:31 - get_polly_response: <speak><prosody rate="100%"><amazon:domain name="news">Welcome to the exquisite Hotel Metropole, Monte Carlo, where luxury meets tranquility. Picture yourself lounging by our serene swimming pool, surrounded by lush greenery and the stunning architecture of our grand hotel. This is not just a getaway; it's an invitation to unwind in a paradise that promises relaxation under the bright blue sky. Experience the elegance and comfort that awaits you at every corner of our property.</amazon:domain></prosody></speak> ssml Joanna en-US
+2024-07-29 23:50:10.095 | INFO     | __main__:omprint:31 - thumb_filename: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/thumbnail/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77.jpg
+2024-07-29 23:50:10.095 | INFO     | __main__:omprint:31 - Ruta creada: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/thumbnail
+2024-07-29 23:50:10.096 | INFO     | __main__:omprint:31 - ==========================
+2024-07-29 23:50:10.096 | INFO     | __main__:omprint:31 - image_path: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/images/image_0.jpg
+2024-07-29 23:50:10.096 | INFO     | __main__:omprint:31 - ==========================
+2024-07-29 23:50:10.765 | INFO     | __main__:omprint:31 - img_filename, audio_filename: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/images/image_1.jpg ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/audios/audio_1.mp3
+2024-07-29 23:50:10.766 | INFO     | __main__:omprint:31 - La ruta ya existe: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/images
+2024-07-29 23:50:11.050 | INFO     | __main__:omprint:31 - La ruta ya existe: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/audios
+2024-07-29 23:50:11.051 | INFO     | __main__:omprint:31 - get_polly_response: neural Joanna As the sun sets, the magic of Hotel Metropole truly comes alive. Imagine dining al fresco on our beautifully set terrace, adorned with plush striped cushions and a breathtaking coastal view. The soft glow of twilight creates an intimate atmosphere, perfect for gatherings with loved ones or a romantic evening. This is where unforgettable memories are made, and every moment is cherished. Don’t miss out on the luxury experience that awaits you—follow @LuxuryRoamers for more stunning content like this! 100%
+2024-07-29 23:50:11.051 | INFO     | __main__:omprint:31 - {'Engine': 'neural', 'LanguageCode': 'en-US', 'VoiceId': 'Joanna', 'Gender': 'Female', 'TextType': 'ssml', 'Newscaster': 'news'}
+2024-07-29 23:50:11.147 | INFO     | __main__:omprint:31 - get_polly_response: <speak><prosody rate="100%"><amazon:domain name="news">As the sun sets, the magic of Hotel Metropole truly comes alive. Imagine dining al fresco on our beautifully set terrace, adorned with plush striped cushions and a breathtaking coastal view. The soft glow of twilight creates an intimate atmosphere, perfect for gatherings with loved ones or a romantic evening. This is where unforgettable memories are made, and every moment is cherished. Don’t miss out on the luxury experience that awaits you—follow @LuxuryRoamers for more stunning content like this!</amazon:domain></prosody></speak> ssml Joanna en-US
+2024-07-29 23:50:12.468 | INFO     | __main__:omprint:31 - ---------------------------------------------------
+2024-07-29 23:50:12.469 | INFO     | __main__:omprint:31 - num_elements, thumb_filename: 2 ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/thumbnail/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77.jpg
+2024-07-29 23:50:12.469 | INFO     | __main__:omprint:31 - ---------------------------------------------------
+2024-07-29 23:50:12.470 | INFO     | __main__:omprint:31 - Ruta creada: ./public/b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77/videos
+2024-07-29 23:50:13.093 | INFO     | __main__:omprint:31 - img_clip2: <moviepy.video.VideoClip.ImageClip object at 0x112e7b2c0>
+2024-07-29 23:50:13.481 | INFO     | __main__:omprint:31 - Error al procesar el proceso ID: b3fd1bc7-51c7-4fa0-934d-b7cdfc5a4c77, error: VideoClip.write_videofile() got an unexpected keyword argument 'write_cmd'
+2024-07-29 23:50:18.486 | INFO     | __main__:omprint:31 - pending_processes: []
+2024-07-29 23:50:18.486 | INFO     | __main__:omprint:31 - No hay más procesos pendientes.
+2024-07-29 23:50:27.249 | INFO     | __main__:omprint:31 - pending_processes: []
+2024-07-29 23:50:27.259 | INFO     | __main__:omprint:31 - No hay más procesos pendientes.
+2024-07-29 23:51:27.260 | INFO     | __main__:omprint:31 - pending_processes: []
+2024-07-29 23:51:27.262 | INFO     | __main__:omprint:31 - No hay más procesos pendientes.
+2024-07-29 23:52:27.268 | INFO     | __main__:omprint:31 - pending_processes: []
+2024-07-29 23:52:27.285 | INFO     | __main__:omprint:31 - No hay más procesos pendientes.
+2024-07-29 23:53:27.289 | INFO     | __main__:omprint:31 - pending_processes: []
+2024-07-29 23:53:27.290 | INFO     | __main__:omprint:31 - No hay más procesos pendientes.
+2024-07-29 23:54:27.294 | INFO     | __main__:omprint:31 - pending_processes: []
+2024-07-29 23:54:27.303 | INFO     | __main__:omprint:31 - No hay más procesos pendientes.

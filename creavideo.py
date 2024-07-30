@@ -7,6 +7,8 @@ import math
 from PIL import Image
 import numpy as np
 import time
+import ffmpeg
+import subprocess
 
 # Asegúrate de tener la configuración correcta para acceder a Amazon Polly
 import boto3
@@ -258,6 +260,136 @@ def zoom_in_effect(clip, zoom_ratio=0.04):
         return result
 
     return clip.fl(effect)
+
+
+def create_video_bad(num_elements, output_filename, download_path, property_name, thumb_filename):
+    create_file_path(output_filename)
+
+    command = []
+
+    if num_elements < 2:
+        raise ValueError("Debe haber al menos 2 elementos.")
+
+    for i in range(0, num_elements, 2):
+        audio_clip1 = f"{download_path}/audios/audio_{i}.mp3"
+        audio_clip2 = f"{download_path}/audios/audio_{i + 1}.mp3" if (i + 1) < num_elements else None
+
+        img_clip1 = f"{download_path}/images/image_{i}.jpg"
+        img_clip2 = f"{download_path}/images/image_{i + 1}.jpg" if audio_clip2 else None
+
+        command.append(f"-i {audio_clip1}")
+        if audio_clip2:
+            command.append(f"-i {audio_clip2}")
+        command.append(f"-i {img_clip1}")
+        if img_clip2:
+            command.append(f"-i {img_clip2}")
+
+    command.extend([
+        "-filter_complex",
+        f"[0:a][1:a]concat=n={num_elements//2}:v=0:a=1[aud]",
+        f"[2:v][3:v]scale=w={1080}[vid]",
+        f"[vid][aud]concat=n={num_elements//2}:v=1:a=1[final]",
+        f"[final]pad=w={1080}:h={1920}:x=(iw-1080)/2:y=(ih-1920)/2[final]",
+        f"[4:v][final]overlay=x=0:y=0[final]"
+    ])
+
+    command.extend([
+        "-map", "[final]",
+        "-c:v", "libx264",
+        "-c:a", "aac",
+        "-b:a", "64k",
+        "-r", "24",
+        "-threads", "4",
+        output_filename
+    ])
+
+    subprocess.run(command, shell=True)
+
+# def create_video(num_elements, output_filename, download_path, property_name, thumb_filename):
+#     create_file_path(output_filename)
+
+#     clips = []
+
+#     if num_elements < 2:
+#         raise ValueError("Debe haber al menos 2 elementos.")
+
+#     for i in range(0, num_elements, 2):
+#         # Leer los audios
+#         audio_clip1 = AudioFileClip(f"{download_path}/audios/audio_{i}.mp3")
+#         audio_clip2 = AudioFileClip(f"{download_path}/audios/audio_{i + 1}.mp3") if (i + 1) < num_elements else None
+
+#         # Duración combinada de los audios
+#         combined_duration = audio_clip1.duration + (audio_clip2.duration if audio_clip2 else 0)
+
+#         # Leer las imágenes
+#         img_clip1 = ImageClip(f"{download_path}/images/image_{i}.jpg").set_duration(combined_duration).resize(width=1080)
+#         img_clip2 = ImageClip(f"{download_path}/images/image_{i + 1}.jpg").set_duration(combined_duration) if audio_clip2 else None
+#         if img_clip2:
+#             print("img_clip2:", img_clip2)
+#             img_clip2 = img_clip2.resize((1080, int(1080 * img_clip2.h / img_clip2.w)), Image.Resampling.LANCZOS)
+
+#         # Posicionar las imágenes
+#         img_clip1 = zoom_in_effect(img_clip1).set_position(("center", "top"))
+#         if img_clip2:
+#             img_clip2 = zoom_in_effect(img_clip2).set_position(("center", "bottom"))
+
+#         # Crear la escena con las imágenes y el audio
+#         if img_clip2:
+#             video = CompositeVideoClip([img_clip1, img_clip2], size=(1080, 1920)).set_duration(combined_duration)
+#             combined_audio = concatenate_audioclips([audio_clip1, audio_clip2]) if audio_clip2 else audio_clip1
+#             video = video.set_audio(combined_audio)
+#         else:
+#             video = CompositeVideoClip([img_clip1], size=(1080, 1920)).set_duration(combined_duration).set_audio(audio_clip1)
+
+#         clips.append(video)
+
+#     # Concatenar todas las escenas
+#     final_clip = concatenate_videoclips(clips, method="compose")
+
+#     # Cargar la imagen centralizada y establecer la duración total del video
+#     centered_img_clip = ImageClip("./images/LuxuryRoamersHDTransparente.png").set_duration(final_clip.duration)
+#     centered_img_clip = centered_img_clip.resize(width=final_clip.w * 0.85).set_position("center")
+    
+#     # Superponer la imagen sobre el video final
+#     final_clip = CompositeVideoClip([final_clip, centered_img_clip])
+
+#     # Crear un proceso de FFmpeg para procesar el video desde un pipe
+#     ffmpeg_command = [
+#         'ffmpeg',
+#         '-y',  # sobrescribir el archivo de salida si existe
+#         '-f', 'rawvideo',
+#         '-vcodec', 'rawvideo',
+#         '-s', '1080x1920',  # tamaño del video
+#         '-pix_fmt', 'rgb24',
+#         '-r', '24',  # fps
+#         '-i', '-',  # leer desde stdin
+#         '-i', './images/LuxuryRoamersHDTransparente.png',  # superposición de imagen
+#         '-filter_complex', '[1:v][0:v]scale2ref=iw/5:ih/5[logo][base];[base][logo]overlay=(W-w)/2:(H-h)/2',
+#         '-c:v', 'libx264',
+#         '-preset', 'fast',
+#         '-crf', '22',
+#         '-c:a', 'aac',
+#         '-b:a', '128k',
+#         output_filename
+#     ]
+
+#     # Iniciar el proceso de FFmpeg
+#     process = subprocess.Popen(ffmpeg_command, stdin=subprocess.PIPE)
+
+#     # Escribir el video final al pipe de FFmpeg
+#     final_clip.write_videofile(
+#         filename='-',
+#         codec='rawvideo',
+#         fps=24,
+#         audio_codec='aac',
+#         audio_bitrate='64k',
+#         threads=4,
+#         write_cmd=process.stdin
+#     )
+
+#     # Cerrar el pipe de FFmpeg
+#     process.stdin.close()
+#     process.wait()
 
 
 def create_video(num_elements, output_filename, download_path, property_name, thumb_filename):

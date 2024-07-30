@@ -154,7 +154,8 @@
                     success: function (response) {
                         let propertyListContent = $("#propertyListContent");
                         propertyListContent.empty();
-                        response.forEach(function (property) {
+                        response.forEach((property) => {
+                            console.log(property);
                             let encodedProperty = encodeURIComponent(property.filename);
                             let propertyid = btoa(encodedProperty);
                             propertyListContent.append(`
@@ -165,9 +166,9 @@
                                             <p class="card-text"><small class="text-muted">Modificado: ${property.modified}</small><br>
                                             <small class="text-muted">Estado: ${property.status || ""}</small></p>
                                             <div class="btn-group" role="group" aria-label="Acciones de la propiedad">
-                                                <button class="btn btn-info btn-sm view-button" data-property="/properties/${encodedProperty}" title="Ver"><i class="fas fa-eye"></i></button>&nbsp;&nbsp;&nbsp;
-                                                <a href="/properties/${encodedProperty}" class="btn btn-primary btn-sm" download title="Descargar"><i class="fas fa-download"></i></a>&nbsp;&nbsp;&nbsp;
-                                                <button class="btn btn-danger btn-sm delete-button" data-property="${encodedProperty}" title="Borrar"><i class="fas fa-trash-alt"></i></button>
+                                                <button class="btn btn-info btn-sm view-button" data-property="${property.filename}" title="Ver"><i class="fas fa-eye"></i></button>&nbsp;&nbsp;&nbsp;
+                                                <a href="${property.filename}" class="btn btn-primary btn-sm" download title="Descargar"><i class="fas fa-download"></i></a>&nbsp;&nbsp;&nbsp;
+                                                <button class="btn btn-danger btn-sm delete-button" data-property="${property.process_id}" title="Borrar"><i class="fas fa-trash-alt"></i></button>
                                             </div>
                                         </div>
                                     </div>
@@ -177,11 +178,11 @@
 
                         // Agregar evento de clic para los botones de borrar
                         $(".delete-button").click(function () {
-                            var property = $(this).data("property");
-                            let propertyid = btoa(property);
+                            var propertyid = $(this).data("property");
+                            // let propertyid = btoa(property);
                             $.ajax({
                                 type: "DELETE",
-                                url: "/properties/" + property,
+                                url: "/properties/" + propertyid,
                                 success: function (response) {
                                     alert("Propiedad borrada exitosamente.");
                                     $("#propertyid_" + propertyid).remove();

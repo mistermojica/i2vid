@@ -607,6 +607,11 @@ def update_process_status(process_id, status):
         }, Process.uuid == process_id)
 
 
+def delete_process(process_id):
+    Process = Query()
+    procesos_table.remove(Process.uuid == process_id)
+
+
 def get_pending_processes():
     return procesos_table.search(Query().estado == 'pendiente')
 
@@ -626,7 +631,7 @@ def process_pending_tasks():
 
             for process in sorted(pending_processes, key=lambda x: x['fecha_creacion']):
                 process_id = process['uuid']
-                print(f"Procesando el proceso ID: {process_id}")
+                print(f"Ejecutando el proceso ID: {process_id}")
                 try:
                     asyncio.run(main(
                         process['uuid'],
@@ -708,6 +713,15 @@ def list_videos():
     video_files.sort(key=lambda x: x["modified"], reverse=True)
     
     return jsonify(video_files)
+
+
+@app.route('/properties/<process_id>', methods=['DELETE'])
+def delete_process_endpoint(process_id):
+    try:
+        delete_process(process_id)
+        return jsonify({"message": "Process deleted successfully"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 def start_process_monitor():
