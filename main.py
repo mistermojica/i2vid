@@ -11,7 +11,7 @@ from creavideo import create_video_main
 from ig_uploader import upload_video_thread
 import uuid
 import threading
-from flask import Flask, request, jsonify, send_from_directory, render_template_string
+from flask import Flask, request, jsonify, render_template, send_from_directory, render_template_string
 from loguru import logger
 from PIL import Image
 from datetime import datetime, timezone
@@ -23,7 +23,7 @@ try:
     load_dotenv(find_dotenv())
 except Exception as err:
     print(err)
-    
+
 import builtins
 
 original_print = print
@@ -73,10 +73,10 @@ async def extract_property_data(url):
 
         # Navegar a la URL
         await page.goto(url)
-        
+
         # Esperar que el contenedor 'c3xth-title' esté presente
         await page.wait_for_selector(".c3xth-title h1")
-        
+
         property_name = await page.text_content(".c3xth-title h1")
 
         try:
@@ -153,7 +153,7 @@ async def extract_property_data_trulia(url):
 
         # Navegar a la URL
         await page.goto(url)
-        
+
        # Esperar que el contenedor 'grid-gallery' esté presente
         await page.wait_for_selector('div[data-testid="grid-gallery"]')
 
@@ -550,7 +550,7 @@ async def main(uuid4, url, language, voice, property_type, property_name_param, 
 
     # send_vehicle_data_to_instagram(ctx)
     
-    server_url = f"https://llfgcl66-{PORT}.use2.devtunnels.ms"
+    server_url = f"https://i2vid.luxuryroamers.com"
     video_to_upload = f'{server_url}/{uuid4}/videos/{uuid4}.mp4'
     cover_url = f'{server_url}/{uuid4}/thumbnail/{uuid4}.jpg'
     
@@ -646,10 +646,15 @@ def process_pending_tasks():
                 except Exception as e:
                     update_process_status(process_id, f'error: {e}')
                     print(f"Error al procesar el proceso ID: {process_id}, error: {e}")
-                    
+
             time.sleep(5)  # Espera antes de verificar nuevamente
     finally:
         process_lock.release()
+
+
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 
 @app.route('/process', methods=['POST'])
@@ -664,16 +669,16 @@ def process_request():
 
     if not url or not property_type:
         return jsonify({"error": "Missing required parameters"}), 400
-    
+
     process_id = str(uuid.uuid4())
-    
+
     logger.add(f"./logs/file_{process_id}.log", rotation="1 day")
 
     save_to_db(process_id, url, language, voice, property_type, property_name, number_images)
 
     # Trigger the process_pending_tasks function
     threading.Thread(target=process_pending_tasks).start()
-    
+
     return jsonify({"message": "Proceso registrado exitosamente.", "process_id": process_id}), 200
 
 
@@ -735,4 +740,4 @@ if __name__ == '__main__':
     print(f"Servidor Flask corriendo en el puerto {PORT}")
     print(f"--------------------------------------------")
     threading.Thread(target=start_process_monitor).start()  # Iniciar el monitor de procesos en segundo plano
-    app.run(port=PORT)
+    app.run(host='0.0.0.0', port=PORT)
