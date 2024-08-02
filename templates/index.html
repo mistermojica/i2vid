@@ -4,30 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Propiedad</title>
+    <title>Formulario de Generación de Videos</title>
     <!-- Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container mt-5">
-        <h2>Formulario de Propiedad</h2>
+        <h2>Formulario de Generación de Videos</h2>
         <hr>
         <form id="propertyForm">
             <div class="form-group row">
-                <label for="url" class="col-sm-2 col-form-label">URL:</label>
+                <label for="title" class="col-sm-2 col-form-label">Título:</label>
                 <div class="col-sm-10">
-                    <input type="text" id="url" name="url" class="form-control" required>
+                    <input type="text" id="title" name="title" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="context" class="col-sm-2 col-form-label">Contexto:</label>
+                <div class="col-sm-10">
+                    <textarea id="context" name="context" class="form-control" rows="5"></textarea>
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="language" class="col-sm-2 col-form-label">Idioma:</label>
                 <div class="col-sm-4">
-                    <select id="language" name="language" class="form-control" required>
+                    <select id="language" name="language" class="form-control" >
                         <option value="" selected>Selecciona un idioma</option>
-                        <option value="Espanol">Español</option>
                         <option value="English">Inglés</option>
+                        <option value="Espanol">Español</option>
+                        <option value="Chino">Chino</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="Árabe">Árabe</option>
+                        <option value="Portugués">Portugués</option>
+                        <option value="Bengalí">Bengalí</option>
+                        <option value="Ruso">Ruso</option>
+                        <option value="Japonés">Japonés</option>
+                        <option value="Alemán">Alemán</option>
                     </select>
                 </div>
             </div>
@@ -35,30 +50,264 @@
             <div class="form-group row">
                 <label for="voice" class="col-sm-2 col-form-label">Voz:</label>
                 <div class="col-sm-4">
-                    <select id="voice" name="voice" class="form-control" required>
+                    <select id="voice" name="voice" class="form-control" >
                         <option value="" selected>Selecciona una voz</option>
                     </select>
                 </div>
             </div>
 
             <div class="form-group row">
-                <label for="property_type" class="col-sm-2 col-form-label">Tipo de Propiedad:</label>
+                <label for="conversation_tone" class="col-sm-2 col-form-label">Tono de la Conversación:</label>
                 <div class="col-sm-4">
-                    <input type="text" id="property_type" name="property_type" class="form-control" required>
+                    <select id="conversation_tone" name="conversation_tone" class="form-control" >
+                        <option value="" selected>Selecciona un tono</option>
+                        <option value="Entusiasta">Entusiasta</option>
+                        <option value="Humorístico">Humorístico</option>
+                        <option value="Motivacional">Motivacional</option>
+                        <option value="Conversacional">Conversacional</option>
+                        <option value="Autoritario">Autoritario</option>
+                        <option value="Persuasivo">Persuasivo</option>
+                        <option value="Narrativo">Narrativo</option>
+                        <option value="Empático">Empático</option>
+                        <option value="Innovador">Innovador</option>
+                    </select>
                 </div>
             </div>
 
             <div class="form-group row">
-                <label for="property_name" class="col-sm-2 col-form-label">Nombre de la Propiedad:</label>
+                <label for="video_type" class="col-sm-2 col-form-label">Tipo de Video:</label>
                 <div class="col-sm-4">
-                    <input type="text" id="property_name" name="property_name" class="form-control">
+                    <select id="video_type" name="video_type" class="form-control" >
+                        <option value="" selected>Selecciona un tipo de video</option>
+                        <option value="Tour Virtual">Tour Virtual</option>
+                        <option value="Resumen de Características">Resumen de Características</option>
+                        <option value="Histórico">Histórico</option>
+                        <option value="Reportaje">Reportaje</option>
+                        <option value="Noticia">Noticia</option>
+                        <option value="VSL">VSL (Video Sales Letter)</option>
+                        <option value="Tutorial">Tutorial</option>
+                        <option value="Testimonial">Testimonial</option>
+                        <option value="Entrevista">Entrevista</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="asset_type" class="col-sm-2 col-form-label">Tipo de Activo:</label>
+                <div class="col-sm-4">
+                    <select id="asset_type" name="asset_type" class="form-control" >
+                        <option value="" selected>Selecciona un tipo de activo</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Apartamento">Apartamento</option>
+                        <option value="Villa">Villa</option>
+                        <option value="Ático">Ático</option>
+                        <option value="Terreno">Terreno</option>
+                        <option value="Mansión">Mansión</option>
+                        <option value="Yate">Yate</option>
+                        <option value="Jet Privado">Jet Privado</option>
+                        <option value="Automóvil de Lujo">Automóvil de Lujo</option>
+                        <option value="Isla Privada">Isla Privada</option>
+                        <option value="Penthouse">Penthouse</option>
+                        <option value="Rancho">Rancho</option>
+                        <option value="Castillo">Castillo</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="asset_name" class="col-sm-2 col-form-label">Nombre del Activo:</label>
+                <div class="col-sm-4">
+                    <input type="text" id="asset_name" name="asset_name" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="video_source" class="col-sm-2 col-form-label">Fuente de Videos:</label>
+                <div class="col-sm-4">
+                    <select id="video_source" name="video_source" class="form-control" >
+                        <option value="" selected>Selecciona una fuente de videos</option>
+                        <option value="Scrapping">Scrapping</option>
+                        <option value="Carga Manual">Carga Manual</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="url" class="col-sm-2 col-form-label">URL:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="url" name="url" class="form-control" >
                 </div>
             </div>
 
             <div class="form-group row">
                 <label for="number_images" class="col-sm-2 col-form-label">Número de Imágenes:</label>
                 <div class="col-sm-4">
-                    <input type="text" id="number_images" name="number_images" class="form-control" required>
+                    <input type="number" id="number_images" name="number_images" class="form-control" >
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="background_music" class="col-sm-2 col-form-label">Música de Fondo:</label>
+                <div class="col-sm-4">
+                    <select id="background_music" name="background_music" class="form-control" >
+                        <option value="" selected>Selecciona música de fondo</option>
+                        <option value="Animada">Animada</option>
+                        <option value="Deporte">Deporte</option>
+                        <option value="Éxito">Éxito</option>
+                        <option value="Felicidad">Felicidad</option>
+                        <option value="Inspiracional">Inspiracional</option>
+                        <option value="Reto">Reto</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="duration" class="col-sm-2 col-form-label">Duración (segundos):</label>
+                <div class="col-sm-4">
+                    <input type="range" id="duration" name="duration" class="form-control" min="15" max="300" value="15" oninput="updateDurationValue(this.value)">
+                    <span id="durationValue">15</span> segundos
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="visual_style" class="col-sm-2 col-form-label">Estilo Visual:</label>
+                <div class="col-sm-4">
+                    <select id="visual_style" name="visual_style" class="form-control" >
+                        <option value="" selected>Selecciona un estilo visual</option>
+                        <option value="Minimalista">Minimalista</option>
+                        <option value="Lujoso">Lujoso</option>
+                        <option value="Moderno">Moderno</option>
+                        <option value="Clásico">Clásico</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="interval" class="col-sm-2 col-form-label">Intervalo (segundos):</label>
+                <div class="col-sm-4">
+                    <input type="number" id="interval" name="interval" class="form-control" min="1" max="10">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="platforms" class="col-sm-2 col-form-label">Plataformas:</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="instagram" name="platforms" value="Instagram">
+                        <label class="form-check-label" for="instagram">Instagram</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="tiktok" name="platforms" value="TikTok">
+                        <label class="form-check-label" for="tiktok">TikTok</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="youtube" name="platforms" value="YouTube">
+                        <label class="form-check-label" for="youtube">YouTube</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="facebook" name="platforms" value="Facebook">
+                        <label class="form-check-label" for="facebook">Facebook</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="linkedin" name="platforms" value="LinkedIn">
+                        <label class="form-check-label" for="linkedin">LinkedIn</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="twitter" name="platforms" value="Twitter">
+                        <label class="form-check-label" for="twitter">Twitter</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="pinterest" name="platforms" value="Pinterest">
+                        <label class="form-check-label" for="pinterest">Pinterest</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Generar Miniatura:</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="generate_thumbnail_yes" name="generate_thumbnail" value="Yes">
+                        <label class="form-check-label" for="generate_thumbnail_yes">Sí</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="generate_thumbnail_no" name="generate_thumbnail" value="No">
+                        <label class="form-check-label" for="generate_thumbnail_no">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Orientación:</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="orientation_portrait" name="orientation" value="Portrait">
+                        <label class="form-check-label" for="orientation_portrait">Portrait</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="orientation_landscape" name="orientation" value="Landscape">
+                        <label class="form-check-label" for="orientation_landscape">Landscape</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="caption_text" class="col-sm-2 col-form-label">Texto del Caption:</label>
+                <div class="col-sm-10">
+                    <textarea id="caption_text" name="caption_text" class="form-control" rows="7" ></textarea>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="hashtags" class="col-sm-2 col-form-label">Hashtags:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="hashtags" name="hashtags" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="call_to_action" class="col-sm-2 col-form-label">Llamado a la Acción:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="call_to_action" name="call_to_action" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="mention_account" class="col-sm-2 col-form-label">Cuenta a Mencionar:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="mention_account" name="mention_account" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="contact_info" class="col-sm-2 col-form-label">Datos de Contacto:</label>
+                <div class="col-sm-10">
+                    <input type="text" id="contact_info" name="contact_info" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="output_format" class="col-sm-2 col-form-label">Formato de Salida:</label>
+                <div class="col-sm-4">
+                    <select id="output_format" name="output_format" class="form-control" >
+                        <option value="" selected>Selecciona un formato de salida</option>
+                        <option value="MP4">MP4</option>
+                        <option value="MOV">MOV</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="publication_datetime" class="col-sm-2 col-form-label">Fecha y Hora de Publicación:</label>
+                <div class="col-sm-4">
+                    <input type="datetime-local" id="publication_datetime" name="publication_datetime" class="form-control" >
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="photos" class="col-sm-2 col-form-label">Fotos:</label>
+                <div class="col-sm-10">
+                    <input type="file" id="photos" name="photos" class="form-control" multiple>
                 </div>
             </div>
 
@@ -73,7 +322,8 @@
 
         <!-- Lista de propiedades -->
         <div id="propertyList" class="mt-5">
-            <h3>Propiedades Generadas</h3>
+            <hr>
+            <h3>Videos Generados</h3>
             <hr>
             <div class="row" id="propertyListContent">
                 <!-- Aquí se cargará la lista de propiedades -->
@@ -144,6 +394,10 @@
             {"Language": "Espanol", "VoiceId": "Lupe", "Gender": "Female"},
             {"Language": "Espanol", "VoiceId": "Pedro", "Gender": "Male"}
         ];
+
+        function updateDurationValue(value) {
+            document.getElementById('durationValue').textContent = value;
+        }
 
         $(document).ready(function () {
             // Función para cargar la lista de propiedades
