@@ -181,7 +181,7 @@ def add_options(options, video_clip, options_font_path, margin=170, top_margin=1
         # Convertir el fondo redondeado a ImageClip
         bg_array = np.array(bg_image)
         option_bg_clip = ImageClip(bg_array).set_duration(video_clip.duration)
-        option_bg_clip = option_bg_clip.set_position((margin, y_positions[i]))
+        option_bg_clip = option_bg_clip.set_position((margin + 10, y_positions[i] + 1))
 
         # Crear el texto de la opción
         option_text_clip = (TextClip(option, fontsize=70, color='black', font=options_font_path)
