@@ -137,18 +137,18 @@ def add_question_text(question_text, video_clip, question_font_path, margin=80, 
     return question_clip
 
 # Añadir opciones de respuesta
-def add_options(options, video_clip, options_font_path, margin=80, top_margin=1000):
+def add_options(options, video_clip, options_font_path, margin=170, top_margin=1000):
     option_clips = []
     first_option_pos = top_margin
-    option_space = 150
+    option_space = 170
     y_positions = [first_option_pos, first_option_pos + option_space, first_option_pos + (option_space * 2)]
 
     # Configuración de estilo
-    circle_radius = int(40 * 1.3)  # Aumentar el radio del círculo en un 30%
+    circle_radius = int(40 * 1.5)  # Aumentar el radio del círculo en un 30%
     circle_color = '#6A5ACD'  # Color del círculo en formato hexadecimal (Lavender)
     option_bg_color = '#FFFFFF'  # Fondo blanco para las opciones
-    option_bg_height = 80  # Altura del fondo de las opciones
-    corner_radius = 20  # Radio de las esquinas redondeadas del fondo
+    option_bg_height = 115  # Altura del fondo de las opciones
+    corner_radius = 50  # Radio de las esquinas redondeadas del fondo
 
     for i, option in enumerate(options):
         # Crear el círculo con Pillow
@@ -165,7 +165,7 @@ def add_options(options, video_clip, options_font_path, margin=80, top_margin=10
 
         # Crear el texto dentro del círculo
         label_text = chr(65 + i)  # Genera las letras A, B, C
-        label_clip = (TextClip(label_text, fontsize=70, color='white', font=options_font_path)
+        label_clip = (TextClip(label_text, fontsize=80, color='white', font=options_font_path)
                       .set_duration(video_clip.duration)
                       .set_position((margin + 30, y_positions[i] + 10)))  # Ajustar posición del texto dentro del círculo
 
